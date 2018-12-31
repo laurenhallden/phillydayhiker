@@ -1,0 +1,167 @@
+<span class="nprogress-logo fade"></span>
+<nav class="navbar navbar-main hidden-sm hidden-xs" data-search-index="false">
+    <div class="navbar-header">
+      <a href="/" class="navbar-brand"><img class="brand-logo" src="/images/brand-icon.svg"/><div class="brand-title">Philly Day Hiker</div></a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li><div class="nav-item nav-item-rotate nav-item-slide" id="destinations">Destinations <i class="fa fa-caret-down"></i></div>
+      </li>
+      <li><div class="nav-item nav-item-rotate nav-item-slide" id="about">About <i class="fa fa-caret-down"></i></div>
+      </li>
+      <li><div class="nav-item" data-toggle="modal" data-target="#tipsModal">Contact <i class="fa fa-caret-down"></i></div>
+      </li>
+      <li><a href="/kayak" class="nav-item nav-item-rotate nav-item-slide" id="kayak-map"><span class="tag">New!</span>Kayak map<i class="icon"></i></a>
+      </li>
+    </ul>
+</nav>
+
+<nav class="navbar navbar-mobile visible-sm visible-xs" data-search-index="false">
+  <div class="container" id="mobile-nav-container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="/" class="navbar-brand"><img class="brand-logo" src="/images/brand-icon.svg"/><div class="brand-title">Philly Day Hiker</div></a>
+    </div>
+    <div class="collapse navbar-collapse" id="navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a class="dropdown-toggle nav-item" data-toggle="dropdown" href="javascript:void(0)">Destinations <i class="fa fa-caret-down"></i></a>
+
+          <ul class="dropdown-menu navigation-list">
+             <li class="filters-list">
+              <!-- Filters -->
+              <%= partial '/partials/filters' %>
+            </li>
+
+            <% data.phillydayhiker.destinations
+            .sort_by { |id, destination| destination.name }
+            .each do |id, destination| %>
+
+              <li>
+              <a title="<%= destination.name %>" href="/destinations/<%= destination.slug %>">
+                  <%= destination.name %>
+              </a>
+            </li>
+            <% end %>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle nav-item" data-toggle="dropdown" href="javascript:void(0)">About <i class="fa fa-caret-down"></i></a>
+          <ul class="dropdown-menu about-menu">
+            <div class="container about-pdh-content">
+              <%= partial '/partials/about' %>
+            </div>
+          </ul>
+        </li>
+        <!--
+        <li class="dropdown">
+          <a class="dropdown-toggle nav-item" data-toggle="dropdown" href="javascript:void(0)">Search <i class="fa fa-caret-down"></i></a>
+          <ul class="dropdown-menu mobile-search">
+            {# Simple search form, remove from search index #}
+            <form action="/search-results/" method="get" data-search-index="false">
+            <input type="text" name="q" placeholder="&nbsp;What are you looking for?" id="tipue_search_input" />
+            </form>
+          </ul>
+        </li>-->
+        <li>
+          <a class="nav-item" href="javascript:void(0)" data-toggle="modal" data-target="#tipsModal">Submit a tip <i class="fa fa-caret-down"></i></a>
+        </li>
+        <li><a href="/kayak" class="nav-item nav-item-rotate nav-item-slide" id="kayak-map"><span class="tag">New!</span>Kayak map<i class="icon"></i></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="view-destinations hidden-sm hidden-xs" data-search-index="false">
+  <div class="container">
+
+    <!-- Filters -->
+    <%= partial '/partials/filters' %>
+
+      <ul class="navigation-list">
+
+        <script type="text/javascript">
+        // set a js variable that has all our destinations as an array, so we can filter them dynamically
+          var myDestinations = [];
+          <% data.phillydayhiker.destinations.each do |id, destination| %>
+            myDestinations.push( {"slug":"<%= destination.slug %>",
+              "has_easy_trails":"<%= destination.has_easy_trails %>",
+              "has_difficult_trails":"<%= destination.has_difficult_trails %>",
+              "more_amenities":"<%= destination.more_amenities %>",
+              "more_natural":"<%= destination.more_natural %>",
+              "dogs":"<%= destination.dogs %>",
+              "boats":"<%= destination.boats %>",
+            } );
+          <% end %>
+        </script>
+
+        <% data.phillydayhiker.destinations
+        .sort_by { |id, destination| destination.name }
+        .each do |id, destination| %>
+
+          <li>
+            <a title="<%= destination.name %>" href="/destinations/<%= destination.slug %>">
+                <%= destination.name %>
+            </a>
+          </li>
+
+        <% end %>
+
+      </ul>
+
+  </div>
+</div>
+
+<div class="about-pdh hidden-sm hidden-xs" data-search-index="false">
+  <div class="container about-pdh-content">
+    <%= partial '/partials/about' %>
+  </div>
+</div>
+
+<div class="modal fade" id="tipsModal" tabindex="-1" role="dialog" aria-labelledby="tipsModal" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4>Add to Philly Day Hiker</h4>
+      </div>
+      <div class="modal-body">
+        <div class="cognito">
+          <script src="https://services.cognitoforms.com/s/PCAi_ZJ9-E-MpvgklVWAVg"></script>
+          <script>Cognito.load("forms", { id: "1" });</script>
+        </div>
+        <a class="modal-back link-subtle" href="javascript:void(0)" data-dismiss="modal">Go back</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="donateModal" tabindex="-1" role="dialog" aria-labelledby="donateModal" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4>Thanks for your support!</h4>
+      </div>
+      <div class="modal-body">
+        <p>Wanna help cover our hosting costs and map licenses? You're the best! We accept small tips via PayPal.</p>
+          <form id="donate-form" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="N3MW3U5GYQ4JY">
+          <input type="image" id="paypal-button" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+          <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>
+        <a class="modal-back link-subtle" href="javascript:void(0)" data-dismiss="modal">Go back</a>
+      </div>
+    </div>
+  </div>
+</div>

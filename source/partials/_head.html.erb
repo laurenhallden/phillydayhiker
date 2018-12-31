@@ -1,0 +1,76 @@
+<html lang="en">
+<head>
+
+  <%= partial '/partials/gtm' %>
+  <script src="https://use.typekit.net/wxh2hyi.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+  <meta charset="utf-8">
+
+  <% if content_for?(:page_title) %>
+    <title><%= yield_content :page_title %></title>
+    <meta property="og:title" content="<%= yield_content :page_title %>" />
+  <% else %>
+    <title>Philly Day Hiker</title>
+    <meta property="og:title" content="Philly Day Hiker" />
+  <% end %>
+
+  <% if content_for?(:page_description) %>
+    <meta name="description" content="<%= yield_content :page_description %>">
+    <meta property="og:description" content="<%= yield_content :page_description %>" />
+  <% else %>
+    <meta name="description" content="Looking for a place to hike near Philly? Here's an insider's guide to the best parks for hiking, exploring nature trails, and enjoying all things outdoors, all within 90 minutes of Philadelphia.">
+    <meta property="og:description" content="Looking for a place to hike near Philly? Here's an insider's guide to the best parks for hiking, exploring nature trails, and enjoying all things outdoors, all within 90 minutes of Philadelphia." />
+  <% end %>
+
+  <meta name="author" content="Singer">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://phillydayhiker.com" />
+  <meta property="og:image" content="https://phillydayhiker.com/images/icons/apple-icon-180x180.png" />
+  <meta property="og:site_name" content="Philly Day Hiker" />
+
+  <meta name="twitter:creator" content="@phillydayhiker" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="<%= current_page.url %>" />
+  <meta name="twitter:image" content="https://phillydayhiker.com/images/icons/apple-icon-180x180.png" />
+
+  <!-- Favicons -->
+  <link rel="shortcut icon" href="/images/favicon.png">    
+  <link rel="apple-touch-icon" sizes="57x57" href="/images/icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/images/icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/images/icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/images/icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/images/icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/images/icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/images/icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/images/icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/icons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/images/icons/android-icon-192x192.png">
+  <link rel="manifest" href="/images/icons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/images/icons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.0/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+
+  <link rel="stylesheet" href="/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="/css/wysiwyg_figures.css"/>
+  <%= stylesheet_link_tag "screen", :relative => false %>
+  <link rel="stylesheet" href="/css/progressbar.css"/>
+
+  <!-- Our JS -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"></script>
+
+  <!-- Mapbox GL JS -->
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.css' rel='stylesheet' />
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>

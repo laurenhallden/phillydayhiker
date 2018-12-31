@@ -1,0 +1,82 @@
+// ----------------------------
+// Breakpoints
+// ----------------------------
+
+$break-mobile-small:    "screen and (max-width: 380px)";
+$break-mobile:          "screen and (max-width: 568px)";
+$break-mobile-large:    "screen and (max-width: 767px)";
+$break-ipad-portrait:	"screen and (max-width: 800px)";
+$break-ipad-large:		"screen and (max-width: 992px)";
+$break-ipad-landscape:	"screen and (max-width: 1025px)";
+$break-laptop:			"screen and (max-width: 1200px)";
+$break-laptop-lg:		"screen and (max-width: 1440px)";
+$break-desktop:         "screen and (max-width: 1600px)";
+$break-largest:			"screen and (min-width: 1600px)";
+
+
+// ----------------------------
+// Other variables
+// ----------------------------
+
+// For Compass's default box-shadow mixin:
+$default-box-shadow-color: #5e5e5e;
+
+
+// ----------------------------
+// Colors
+// ----------------------------
+
+/// Lighten a color with white
+/// @access public
+/// @param {Color} $color - color to tint
+/// @param {Number} $percentage - percentage of `$color` in returned color
+/// @return {Color}
+@function tintwhite($color, $percentage) {
+  @return mix(white, $color, $percentage);
+}
+
+$white: #fff;
+$black: #000;
+
+$medium-blue: #2daada;
+$light-blue: tintwhite($medium-blue, 80%);
+$highlight-blue: #eaf7fb29;
+$highlight-blue-solid: #329ac5;
+$dark-blue: #0388bb;
+$darker-blue: #137caf;
+$darkest-blue: #106fa5;
+$black-blue: #075d89;
+
+$whisper-gray: #f7f8f8;
+$lightest-gray: #e2e2e2;
+$light-gray: #b3b3b2;
+$mid-gray: #999999;
+$medium-gray: #616161;
+$dark-gray: #555555;
+
+
+// ----------------------------
+// Fonts
+// ----------------------------
+
+$freight: "freight-text-pro",serif;
+$helvetica: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+$font-small: 0.9rem;
+$slight-space: 0.03rem;
+$spaced: 0.13rem;
+
+
+// ----------------------------
+// Shadows
+// ----------------------------
+
+$high-float: 1px 1px 10px rgba(0, 0, 0, 0.3);
+$medium-float: 1px 1px 5px rgba(0,0,0,0.2);
+$low-float: 0 0 2px rgba(0,0,0,0.2);
+
+// ----------------------------
+// Nav
+// ----------------------------
+
+$nav-height: 68px;
