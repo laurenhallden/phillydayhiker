@@ -3,15 +3,14 @@
 source 'https://rubygems.org'
 
 gem 'builder'
-gem "middleman"
-gem "middleman-livereload"
-gem 'middleman-dotenv'
+gem "middleman", "~>3.4.1"
+gem "middleman-livereload", "~> 3.3.0"
+gem 'middleman-dotenv', '1.1.1'
 gem 'middleman-robots'
 gem 'contentful'
 gem 'contentful_middleman'
 gem 'redcarpet'
 gem 'middleman-syntax'
-gem "padrino-support"
 
 
 # For faster file watcher updates on Windows:
