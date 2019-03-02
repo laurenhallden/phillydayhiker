@@ -4,7 +4,7 @@
 
 set :css_dir, 'stylesheets'
 set :js_dir, 'js'
-set :images_dir, 'img'
+set :images_dir, 'images'
 set :markdown, :layout_engine => :erb, :tables => true, :autolink => true, :smartypants => true
 
 
