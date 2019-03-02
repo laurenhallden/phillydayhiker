@@ -21,7 +21,6 @@ activate :directory_indexes
 activate :contentful do |f|
   f.space         = { phillydayhiker: 'sib29204iua7'}
   f.access_token  = ENV['CONTENTFUL_API']
-# f.use_preview_api = true
   f.all_entries   = true
   f.cda_query     = { include: 3 }
   f.content_types = { destinations: 'destination'}
