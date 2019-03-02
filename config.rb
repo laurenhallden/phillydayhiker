@@ -29,7 +29,7 @@ end
 if data.respond_to?('phillydayhiker')
   # Build individual destination pages
   data.phillydayhiker.destinations.each do |id, destination|
-      proxy "destinations/#{destination['slug']}/index.html", "destinations/destination.html", locals: { destination: destination }, :ignore => true
+      proxy "destinations/#{destination['slug']}/index.html", "destination.html", locals: { destination: destination }, :ignore => true
   end
 end
 
