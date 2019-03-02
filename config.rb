@@ -26,13 +26,6 @@ activate :contentful do |f|
   f.content_types = { destinations: 'destination'}
 end
 
-if data.respond_to?('phillydayhiker')
-  # Build individual destination pages
-  data.phillydayhiker.destinations.each do |id, destination|
-      proxy "destinations/#{destination['slug']}/index.html", "destination.html", locals: { destination: destination }, :ignore => true
-  end
-end
-
 
 ###
 # Page options, layouts, aliases and proxies
