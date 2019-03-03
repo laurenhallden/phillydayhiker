@@ -32,12 +32,12 @@ end
 # Page options, layouts, aliases and proxies
 ###
 
-if data.respond_to?('phillydayhiker')
+#if data.respond_to?('phillydayhiker')
   # Build individual integration pages
-  data.phillydayhiker.destinations.each do |id, destination|
-      proxy "destinations/#{destination['slug']}/index.html", "destination.html", locals: { destination: destination }, :ignore => true
-  end
-end
+#  data.phillydayhiker.destinations.each do |id, destination|
+   #   proxy "destinations/#{destination['slug']}/index.html", "destination.html", locals: { destination: destination }, :ignore => true
+#  end
+#end
 
 ###
 # Environment configurations
