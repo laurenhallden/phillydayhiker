@@ -1,6 +1,12 @@
 [[redirects]]
+from = "https://copies.phillydayhiker.com/*"
+to = "https://phillydayhiker.com/copies/:splat"
+status = 301
+force = true
+
+[[redirects]]
 from = "/copies/*"
-to = "copies.netlify.com/:splat"
+to = "https://copies.netlify.com/copies/:splat"
 status = 200
 force = true
 headers = {X-Forwarded-Host = "www.phillydayhiker.com"}
