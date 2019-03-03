@@ -7,6 +7,21 @@ set :js_dir, 'javascripts'
 set :images_dir, 'images'
 set :markdown, :layout_engine => :erb, :tables => true, :autolink => true, :smartypants => true
 
+###
+# Helpers
+###
+helpers do
+
+  def get_destinations
+    mydestinations = { }
+    data.phillydayhiker.destinations
+      .sort_by { |id, destination| destination.name }
+      .each do |id, destination|
+    end
+    mydestinations
+  end
+end
+
 activate :syntax
 
 # Automatic image dimensions on image_tag helper

@@ -37,9 +37,9 @@
               <%= partial '/partials/filters' %>
             </li>
 
-            <% data.phillydayhiker.destinations
-            .sort_by { |id, destination| destination.name }
-            .each do |id, destination| %>
+        <% thedestinations
+        .sort_by { |id, destination| destination.name }
+        .each do |id, destination| %>
 
               <li>
               <a title="<%= destination.name %>" href="/destinations/<%= destination.slug %>">
@@ -88,7 +88,7 @@
         <script type="text/javascript">
         // set a js variable that has all our destinations as an array, so we can filter them dynamically
           var myDestinations = [];
-          <% data.phillydayhiker.destinations.each do |id, destination| %>
+          <% thedestinations.each do |id, destination| %>
             myDestinations.push( {"slug":"<%= destination.slug %>",
               "has_easy_trails":"<%= destination.has_easy_trails %>",
               "has_difficult_trails":"<%= destination.has_difficult_trails %>",
@@ -100,7 +100,7 @@
           <% end %>
         </script>
 
-        <% data.phillydayhiker.destinations
+        <% thedestinations
         .sort_by { |id, destination| destination.name }
         .each do |id, destination| %>
 

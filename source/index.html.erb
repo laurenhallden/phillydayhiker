@@ -4,16 +4,8 @@ layout: homepage
 <%
 %>
 
-<%= partial 'kayak_header' %>
+<%= partial 'header', locals: {thedestinations: get_destinations}  %>
 
-
-            <% if data.respond_to?('phillydayhiker')
-            data.phillydayhiker.destinations
-            .sort_by { |id, destination| destination.name }
-            .each do |id, destination| %>
-            tests
-            <% end %>
-            <% end %>
 
 <div id='map' class="full-height"></div>
 
