@@ -14,11 +14,12 @@ helpers do
 
   def get_destinations
     destinations = { }
-    data.stitch.destinations
-      .sort_by { |id, destination| destination.name }
-      .each do |id, destination|
+    data.phillydayhiker.destinations
+      .sort_by { |id, c| c.name }
+      .each do |id, c|
+        destinations[id] = c
     end
-    mydestinations
+    destinations
   end
 end
 
