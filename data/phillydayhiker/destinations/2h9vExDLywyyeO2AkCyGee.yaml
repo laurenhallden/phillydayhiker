@@ -2,9 +2,10 @@
 :id: 2h9vExDLywyyeO2AkCyGee
 :_meta:
   :content_type_id: destination
-  :updated_at: '2019-03-01T14:56:39+00:00'
+  :updated_at: '2019-03-03T19:01:16+00:00'
   :created_at: '2018-12-27T19:23:19+00:00'
   :id: 2h9vExDLywyyeO2AkCyGee
+:updated_at: !ruby/object:DateTime 2018-12-30 00:00:00.000000000 Z
 :name: Wawa Preserve
 :slug: wawa-preserve
 :review: |-
@@ -18,7 +19,7 @@
   - The second trail, Cornucopia, winds through the woods between neighborhoods. If you hit a road and aren’t sure what to do, typically the answer is to keep going straight through the next side yard.
   - In spite of their proximity to nearby houses, the trails are really very private and secluded. And just pretty.
   - In the opposite direction from these trails, you can connect to the [Tyler Arboretum](https://www.tylerarboretum.org/){:target="_blank"} (which has its own trail network). If you want to explore the property you'll need to pay the admission fee, but there's also a path you can take to [Ridley Creek State Park](/destinations/ridley-creek-state-park) for free.
-  - Download the [ExploreNLT app](https://natlands.org/app/){:target="_blank"} for more maps and tips from Natural Lands Trust!
+  - Download the [ExploreNLT app](https://natlands.org/app/){:target="_blank"} for more maps and tips from Natural Lands Trust.
 :acres: 98
 :miles_trails: 6.5
 :latitude: 39.907694
@@ -121,4 +122,3 @@
 :has_easy_trails: true
 :more_natural: true
 :dogs: true
-:updated_at: !ruby/object:DateTime 2018-12-30 00:00:00.000000000 Z

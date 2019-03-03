@@ -23,18 +23,24 @@
     <meta property="og:description" content="Looking for a place to hike near Philly? Here's an insider's guide to the best parks for hiking, exploring nature trails, and enjoying all things outdoors, all within 90 minutes of Philadelphia." />
   <% end %>
 
+  <% if content_for?(:page_image) %>
+    <meta property="og:image" content="<%= yield_content :page_image %>" />
+    <meta name="twitter:image" content="<%= yield_content :page_image %>" />
+  <% else %>
+    <meta property="og:image" content="<%= yield_content :page_image %>" />
+    <meta name="twitter:image" content="https://phillydayhiker.com/images/icons/apple-icon-180x180.png" />
+  <% end %>
+
   <meta name="author" content="Singer">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://phillydayhiker.com" />
-  <meta property="og:image" content="https://phillydayhiker.com/images/icons/apple-icon-180x180.png" />
   <meta property="og:site_name" content="Philly Day Hiker" />
 
   <meta name="twitter:creator" content="@phillydayhiker" />
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="<%= current_page.url %>" />
-  <meta name="twitter:image" content="https://phillydayhiker.com/images/icons/apple-icon-180x180.png" />
 
   <!-- Favicons -->
   <link rel="shortcut icon" href="/images/favicon.png">    

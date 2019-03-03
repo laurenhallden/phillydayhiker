@@ -2,6 +2,12 @@
 layout: destination
 ---
 <%
+  content_for :page_title, "#{destination.name} - Philly Day Hiker"
+  content_for :page_description, "All the tips and information you need about hiking in #{destination.name}"
+
+  if destination.gallery
+  	content_for :page_image, "#{destination.gallery[0].url}"
+  end
 %>
 
 <%= partial 'header', locals: {thedestinations: get_destinations}  %>
