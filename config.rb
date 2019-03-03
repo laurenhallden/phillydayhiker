@@ -34,9 +34,9 @@ end
 
 if data.respond_to?('phillydayhiker')
   # Build individual integration pages
-#  data.phillydayhiker.destinations.each do |id, destination|
-   #   proxy "destinations/#{destination['slug']}/index.html", "destination.html", locals: { destination: destination }, :ignore => true
-#  end
+  data.phillydayhiker.destinations.each do |id, destination|
+    proxy "destinations/#{destination['slug']}/index.html", "destination.html", locals: { destination: destination }, :ignore => true
+  end
 end
 
 ###
