@@ -1,0 +1,93 @@
+---
+:id: 1UzTkNgVAk0AIyi0C40QQ4
+:_meta:
+  :content_type_id: destination
+  :updated_at: '2019-03-01T14:59:47+00:00'
+  :created_at: '2018-12-27T19:22:35+00:00'
+  :id: 1UzTkNgVAk0AIyi0C40QQ4
+:updated_at: !ruby/object:DateTime 2018-12-30 00:00:00.000000000 Z
+:name: Schuylkill Center for Environmental Education
+:slug: schuylkill-center-for-environmental-education
+:review: |-
+  #### What’s to love
+  Located in Roxborough just off the Schuylkill River Trail (it’s bikeable, for the ambitious!), the Schuylkill Center for Environment Education has been helping us city-dwellers learn about the natural world for 50 years. The center hosts a wide variety of programming, from a nature preschool to a native plant nursery.
+
+  The hiking trails here are arranged in short loops, taking you through meadows, established forests and along a small stream. There’s nothing too challenging about the terrain here, making this a great place to bring the family. A highlight is the half-dozen ponds scattered throughout the grounds, where you can find frogs, toads and massive snapping turtles.
+
+  There’s also a bird blind and a register for logging your bird sightings, as well as the remains of an 18th-century farmstead repurposed for the center’s educational activities.
+
+  #### Tips and quirks
+  - The center runs a wildlife clinic, where trained rehabilitators work with injured or orphaned critters. They have a great [“What do I do if I find a…?”](http://www.schuylkillcenter.org/departments/wildlife/whattodoif/){:target="_blank"} resource that will answer all of your questions about baby bunnies (leave them alone, mostly).
+  - There’s also an active environmental art program at the center, supporting an artist-in-residence! [Check their website](http://www.schuylkillcenter.org/departments/art/exhibitions_overview.html){:target="_blank"} to see what outdoor (and indoor) art you might expect to see.
+:acres: 340
+:miles_trails: 3.0
+:latitude: 40.055913
+:longitude: -75.25234
+:website: http://www.schuylkillcenter.org/
+:trail_map_image:
+  :title: Schuylkill Center Map
+  :description: Schuylkill Center Map
+  :url: "//images.ctfassets.net/sib29204iua7/5GxJcTWmA0uEeU2aYUgYsU/4a35102f40839c4a8ea5ccce819ddeeb/schuylkill-center-map.png"
+  :_meta:
+    :updated_at: '2018-12-29T17:10:59+00:00'
+    :created_at: '2018-12-29T17:10:59+00:00'
+    :id: 5GxJcTWmA0uEeU2aYUgYsU
+:gallery:
+- :title: sch-1
+  :description: Bullfrog in one of the center’s many ponds.
+  :url: "//images.ctfassets.net/sib29204iua7/RoL1mTgYM0W4SEy6sU4wC/29c6549250fd4610dd18857107bc9cd6/sch-1.jpg"
+  :_meta:
+    :updated_at: '2018-12-31T00:49:29+00:00'
+    :created_at: '2018-12-31T00:49:29+00:00'
+    :id: RoL1mTgYM0W4SEy6sU4wC
+- :title: sch-2
+  :description: Wildflowers in Penn’s Native Acre, an ongoing restoration project.
+  :url: "//images.ctfassets.net/sib29204iua7/4mUfSGuHQkgc206eo8qOyo/07ac34c668a20860cd4520d9b5fca7fe/sch-2.jpg"
+  :_meta:
+    :updated_at: '2018-12-31T00:50:05+00:00'
+    :created_at: '2018-12-31T00:49:45+00:00'
+    :id: 4mUfSGuHQkgc206eo8qOyo
+- :title: sch-3
+  :description: Decking makes it easy!
+  :url: "//images.ctfassets.net/sib29204iua7/13KIMTBvAMmqgCS2EgYWWq/2d915f5aa754ca6e217e4f43b1533c97/sch-3.jpg"
+  :_meta:
+    :updated_at: '2018-12-31T00:50:01+00:00'
+    :created_at: '2018-12-31T00:49:55+00:00'
+    :id: 13KIMTBvAMmqgCS2EgYWWq
+- :title: sch-4
+  :description: The springhouse by Springhouse Pond.
+  :url: "//images.ctfassets.net/sib29204iua7/3sQFWrUgxO6ImEs6oQSiYo/5781f6d72ce87eec22af830af46205fe/sch-4.jpg"
+  :_meta:
+    :updated_at: '2018-12-31T00:50:16+00:00'
+    :created_at: '2018-12-31T00:50:16+00:00'
+    :id: 3sQFWrUgxO6ImEs6oQSiYo
+- :title: sch-5
+  :description: Some of the artwork installed in the park.
+  :url: "//images.ctfassets.net/sib29204iua7/4g6GQ16UI8CSaKg8OM6C6G/6fa31b01ca7d6188decbf931353b2dd2/sch-5.jpg"
+  :_meta:
+    :updated_at: '2018-12-31T19:35:57+00:00'
+    :created_at: '2018-12-31T19:35:57+00:00'
+    :id: 4g6GQ16UI8CSaKg8OM6C6G
+- :title: sch-6
+  :description: Nothing unusual about this scenario.
+  :url: "//images.ctfassets.net/sib29204iua7/jyrDeZsYiAIk0IOWGwA8W/ad9760f1e5876081db78c41679e33d20/sch-6.jpg"
+  :_meta:
+    :updated_at: '2018-12-31T19:36:28+00:00'
+    :created_at: '2018-12-31T19:36:28+00:00'
+    :id: jyrDeZsYiAIk0IOWGwA8W
+- :title: sch-8
+  :description: A lovely rolling hill of oaks in the winter.
+  :url: "//images.ctfassets.net/sib29204iua7/32JWQtK0zemkKmKMQaie6U/1b3653d1e19b1df1c31b6e947f3ab7e2/sch-8.jpg"
+  :_meta:
+    :updated_at: '2018-12-31T19:37:11+00:00'
+    :created_at: '2018-12-31T19:37:11+00:00'
+    :id: 32JWQtK0zemkKmKMQaie6U
+- :title: sch-7
+  :description: Worm wood?
+  :url: "//images.ctfassets.net/sib29204iua7/5JdneRXsnSiSi4WWO4QOM2/9b01ae6d4c05e363e11eb599f76207d0/sch-7.jpg"
+  :_meta:
+    :updated_at: '2018-12-31T19:38:04+00:00'
+    :created_at: '2018-12-31T19:37:58+00:00'
+    :id: 5JdneRXsnSiSi4WWO4QOM2
+:has_easy_trails: true
+:more_amenities: true

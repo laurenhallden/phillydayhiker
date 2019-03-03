@@ -1,0 +1,94 @@
+---
+:id: 3imvMPQCEwGUOKIakuEWoy
+:_meta:
+  :content_type_id: destination
+  :updated_at: '2019-03-01T15:00:29+00:00'
+  :created_at: '2018-12-27T19:22:53+00:00'
+  :id: 3imvMPQCEwGUOKIakuEWoy
+:updated_at: !ruby/object:DateTime 2018-12-30 00:00:00.000000000 Z
+:name: Trexler Nature Preserve
+:slug: trexler-nature-preserve
+:review: |-
+  #### What’s to love
+  Established in the early 20th century, the original intent of the thousand-acre Trexler game preserve was to protect the American bison, elk, and white tailed deer from extinction. The park opened its grounds to the public in 2004. And though these species are no longer considered endangered, the preserve still maintains habitats for a small population of both bison and elk. You can stop by and see them—just don’t get too close to their fences!
+
+  Today’s Trexler Preserve is split into 3 "ranges," each providing its own variety of activities. Visit the animals at the Central Range, plus go fishing, picnicking, cross country skiing, or creek wading. The North Range has a mountain biking course, and is also open to archery hunting. The South Range is still mostly closed to the public, but features a covered bridge and kayak launch.
+
+  #### Tips and quirks
+  - Stop by the Environmental Center and climb up to the solar roof for bird-watching and a great view of the landscape, including the Blue Mountains in the distance.
+  - The 8.5-mile border trail encircles the whole preserve, and allows to you duck in and out of the different ranges where there are easier, paved trails.
+  - Need more animals? The [Lehigh Valley Zoo](https://www.lvzoo.org/){:target="_blank"} is right next door!
+:acres: 1108
+:miles_trails: 20.0
+:latitude: 40.655836
+:longitude: -75.615788
+:website: https://www.lehighcounty.org/Departments/Parks-And-Recreation/Our-Parks/Trexler-Preserve
+:trail_map_image:
+  :title: Trexler Preserve Map
+  :description: Trexler Preserve Map
+  :url: "//images.ctfassets.net/sib29204iua7/e2ZigDa6nQsmCSQuIyueo/08fb4a84d3bfeebf3ab31f0bab5ca81e/trexler-reserve.jpg"
+  :_meta:
+    :updated_at: '2018-12-29T17:40:48+00:00'
+    :created_at: '2018-12-29T17:40:48+00:00'
+    :id: e2ZigDa6nQsmCSQuIyueo
+:gallery:
+- :title: trex-1
+  :description: The Environmental Center lookout.
+  :url: "//images.ctfassets.net/sib29204iua7/22Vd1vx6gsUwG2OwmWqoky/8ac62a92f5a3f083ee2d1fb7868ed958/trex-1.jpg"
+  :_meta:
+    :updated_at: '2018-12-31T00:55:01+00:00'
+    :created_at: '2018-12-31T00:54:16+00:00'
+    :id: 22Vd1vx6gsUwG2OwmWqoky
+- :title: trex-2
+  :description: View of the landscape from the roof of the Environmental Center.
+  :url: "//images.ctfassets.net/sib29204iua7/6qvNZAx5baMa0ec4WuueI2/e3fdb4cdc6b24934562892cee5a55234/trex-2.jpg"
+  :_meta:
+    :updated_at: '2018-12-31T00:54:57+00:00'
+    :created_at: '2018-12-31T00:54:27+00:00'
+    :id: 6qvNZAx5baMa0ec4WuueI2
+- :title: trex-3
+  :description: Seriously, do not mess with the animals.
+  :url: "//images.ctfassets.net/sib29204iua7/2xujEoHY3migYQsE8uqacg/4cf7a640793929cf2617ff7757b081fa/trex-3.jpg"
+  :_meta:
+    :updated_at: '2018-12-31T00:54:40+00:00'
+    :created_at: '2018-12-31T00:54:40+00:00'
+    :id: 2xujEoHY3migYQsE8uqacg
+- :title: trex-4
+  :description: The edge of the bison habitat.
+  :url: "//images.ctfassets.net/sib29204iua7/6GfmPn850WYeA2UGWiySG/c5775a5f016c2e9dd57c163c380a520f/trex-4.jpg"
+  :_meta:
+    :updated_at: '2018-12-31T00:54:53+00:00'
+    :created_at: '2018-12-31T00:54:53+00:00'
+    :id: 6GfmPn850WYeA2UGWiySG
+- :title: trex-5
+  :description: Bison having breakfast.
+  :url: "//images.ctfassets.net/sib29204iua7/6iw0UHCamQy0KWuA4G0gEo/13bf954b5d26de78aac76dd8d84881c6/trex-5.jpg"
+  :_meta:
+    :updated_at: '2018-12-31T00:55:13+00:00'
+    :created_at: '2018-12-31T00:55:13+00:00'
+    :id: 6iw0UHCamQy0KWuA4G0gEo
+- :title: trex-6
+  :description: Look at his floofy head!
+  :url: "//images.ctfassets.net/sib29204iua7/3OtFulikkMMCwi6ou2GM0m/8d2e4bb328540d291c270a4e27d2feb2/trex-6.jpg"
+  :_meta:
+    :updated_at: '2018-12-31T01:00:30+00:00'
+    :created_at: '2018-12-31T00:55:25+00:00'
+    :id: 3OtFulikkMMCwi6ou2GM0m
+- :title: trex-7
+  :description: The elk seem concerned.
+  :url: "//images.ctfassets.net/sib29204iua7/2LmUQenQHeuUeqMCUgqsIA/d214a3b29fa4beed65c0ac67819033a0/trex-7.jpg"
+  :_meta:
+    :updated_at: '2018-12-31T00:55:37+00:00'
+    :created_at: '2018-12-31T00:55:37+00:00'
+    :id: 2LmUQenQHeuUeqMCUgqsIA
+- :title: trex-8
+  :description: '"The Ford", where a paved trail crosses the Jordan Creek, in winter.'
+  :url: "//images.ctfassets.net/sib29204iua7/5vGpM8ChUcC0u6MIykGUow/04e049ae7fd7f56e80e34566972e81de/trex-8.png"
+  :_meta:
+    :updated_at: '2018-12-31T00:55:49+00:00'
+    :created_at: '2018-12-31T00:55:49+00:00'
+    :id: 5vGpM8ChUcC0u6MIykGUow
+:has_easy_trails: true
+:more_amenities: true
+:dogs: true
+:boats: true

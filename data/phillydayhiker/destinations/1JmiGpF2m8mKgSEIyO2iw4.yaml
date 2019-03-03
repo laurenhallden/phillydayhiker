@@ -1,0 +1,121 @@
+---
+:id: 1JmiGpF2m8mKgSEIyO2iw4
+:_meta:
+  :content_type_id: destination
+  :updated_at: '2019-03-01T15:02:10+00:00'
+  :created_at: '2018-12-27T19:18:00+00:00'
+  :id: 1JmiGpF2m8mKgSEIyO2iw4
+:updated_at: !ruby/object:DateTime 2018-12-30 00:00:00.000000000 Z
+:name: Belmont Plateau
+:slug: belmont-plateau
+:review: |-
+  #### What’s to love
+  Easily accessible by public transportation, Belmont Plateau has long hosted cross-country races on 3k, 5k, and 8k courses that loop around open fields and through the woods. But the marked running paths are just a part of what’s available to hikers—the unmarked paths are much more interesting.
+
+  You won’t find a printed map of the many winding footpaths through these woods, but when you arrive at the Plateau, they’re clearly distinguishable off the main trails. They meander and double back and intersect with each other seemingly at random, but the layout is surprisingly efficient; you can hike for hours and never be too far from the start. And although you’re technically right next door to I-76 when you're hiking at Belmont Plateau, the woods are uncrowded and peaceful.
+
+  Lucky for us, the interactive map above displays all of the unmarked trails (and assigns them highly entertaining names—Jurassic Park? 420??). I have a feeling there are lots of stories in this park’s history; as you travel the footpaths, you occasionally stumble across the remains of small structures and long-abandoned fire hydrants tucked deep in the woods. There’s also the alluringly-named Old Trolley Line trail that I have yet to explore. Who’s with me?
+
+  #### Tips and quirks
+  - UPDATE: I have now hiked the Trolley Line trail, and I’d say it's one of the more interesting paths available. There are no physical tracks left that I could see, but it follows a picturesque tributary of the Schuylkill river and takes you to the historic Chamounix Mansion and horse stables. And this trail is [actively getting improved and expanded!](https://myphillypark.org/trolley-trail-construction/){:target="_blank"}
+  - Several of these footpaths are lined with markers that loudly proclaim there’s a petroleum pipeline nearby. So if you were thinking of digging a big hole here... don’t.
+  - Other trails feature nifty dangling telecom lines. I also wouldn’t mess with these.
+  - This park would be excellent for mountain biking. And there are plenty of other athletic facilities nearby, including baseball, tennis, and lacrosse fields.
+:latitude: 39.988711
+:longitude: -75.212037
+:trail_map_image:
+  :title: Belmont Plateau Map
+  :description: Belmont Plateau Map
+  :url: "//images.ctfassets.net/sib29204iua7/1kvv6jgo9uUm4Gsy0aKocO/3cefd61e3b34c1eb7985cdcbec96870a/belmont-plateau.jpg"
+  :_meta:
+    :updated_at: '2018-12-28T19:14:49+00:00'
+    :created_at: '2018-12-28T19:14:49+00:00'
+    :id: 1kvv6jgo9uUm4Gsy0aKocO
+:gallery:
+- :title: bel-1
+  :description: 
+  :url: "//images.ctfassets.net/sib29204iua7/3DxzA2vuZGA8WMgoiYK0GE/2a0ea9da45449fdcfd74ea5f337059ec/bel-1.jpg"
+  :_meta:
+    :updated_at: '2018-12-28T19:12:12+00:00'
+    :created_at: '2018-12-28T19:12:12+00:00'
+    :id: 3DxzA2vuZGA8WMgoiYK0GE
+- :title: bel-2
+  :description: Lots of handy distance markers for runners.
+  :url: "//images.ctfassets.net/sib29204iua7/jK0KKg1oCOOcGouyCcew6/8ff322d43e58c22337cf4fa3ba6fa46b/bel-2.jpg"
+  :_meta:
+    :updated_at: '2018-12-28T19:12:23+00:00'
+    :created_at: '2018-12-28T19:12:23+00:00'
+    :id: jK0KKg1oCOOcGouyCcew6
+- :title: bel-3
+  :description: Pick your poison.
+  :url: "//images.ctfassets.net/sib29204iua7/k1k8rD8GjKOuw6q0W0qgC/cfe302ea797d24420720f1940ba1c230/bel-3.jpg"
+  :_meta:
+    :updated_at: '2018-12-28T19:14:33+00:00'
+    :created_at: '2018-12-28T19:14:33+00:00'
+    :id: k1k8rD8GjKOuw6q0W0qgC
+- :title: bel-4
+  :description: This seems important?
+  :url: "//images.ctfassets.net/sib29204iua7/4lAh37ZCIgGEE2qUCWUugQ/ad735691cce3922913bcd2909e1f154b/bel-4.jpg"
+  :_meta:
+    :updated_at: '2018-12-28T19:12:50+00:00'
+    :created_at: '2018-12-28T19:12:50+00:00'
+    :id: 4lAh37ZCIgGEE2qUCWUugQ
+- :title: bel-5
+  :description: Abandoned bridge along the Old Trolley Line trail.
+  :url: "//images.ctfassets.net/sib29204iua7/4mhtxppRTyqcGIKY0qAGeA/a40d115a0fe841837a9a52475ed0e6b1/bel-5.jpg"
+  :_meta:
+    :updated_at: '2018-12-31T18:43:45+00:00'
+    :created_at: '2018-12-28T19:13:06+00:00'
+    :id: 4mhtxppRTyqcGIKY0qAGeA
+- :title: bel-6
+  :description: A section of the "Wild Mouse" trail. It’s pretty wild.
+  :url: "//images.ctfassets.net/sib29204iua7/2cjWUaRxTyusOoi26EwMke/0afada2cdc99a3a2fbb43be9fc1714dd/bel-6.jpg"
+  :_meta:
+    :updated_at: '2018-12-31T18:50:14+00:00'
+    :created_at: '2018-12-28T19:13:20+00:00'
+    :id: 2cjWUaRxTyusOoi26EwMke
+- :title: bel-7
+  :description: No parking.
+  :url: "//images.ctfassets.net/sib29204iua7/3RJPzHE68wSkKUkEQ6w2Ag/e7dc55299c393e0096c5079ef62f2bd8/bel-7.jpg"
+  :_meta:
+    :updated_at: '2018-12-28T19:13:32+00:00'
+    :created_at: '2018-12-28T19:13:32+00:00'
+    :id: 3RJPzHE68wSkKUkEQ6w2Ag
+- :title: bel-8
+  :description: 
+  :url: "//images.ctfassets.net/sib29204iua7/4uOlO2znq0qakA8G4iGyS4/37f6b8abf2c4223ef9995cbed3e7262b/bel-8.jpg"
+  :_meta:
+    :updated_at: '2018-12-28T19:13:44+00:00'
+    :created_at: '2018-12-28T19:13:44+00:00'
+    :id: 4uOlO2znq0qakA8G4iGyS4
+- :title: bel-9
+  :description: A little tributary that flows to the Schuylkill along the Old Trolley
+    Line trail.
+  :url: "//images.ctfassets.net/sib29204iua7/4bA6OjHCt2GSwkEIemQy4k/e1f39b705991a91ac04015843e367da2/bel-9.jpg"
+  :_meta:
+    :updated_at: '2018-12-28T19:13:51+00:00'
+    :created_at: '2018-12-28T19:13:51+00:00'
+    :id: 4bA6OjHCt2GSwkEIemQy4k
+- :title: bel-10
+  :description: A praying mantis eggcase.
+  :url: "//images.ctfassets.net/sib29204iua7/2LRcVQbKykAGEukWuGkEI2/eb33a8af6adc05c0ab7f09ea5cebc7cb/bel-10.jpg"
+  :_meta:
+    :updated_at: '2018-12-28T19:14:28+00:00'
+    :created_at: '2018-12-28T19:14:28+00:00'
+    :id: 2LRcVQbKykAGEukWuGkEI2
+- :title: bel-11
+  :description: This beech tree is older than we will ever be.
+  :url: "//images.ctfassets.net/sib29204iua7/2x228YzfK0gIAMAuqsiKOm/b8bbb309955a0a2d3cef4ee0bb3f06ce/bel-11.jpg"
+  :_meta:
+    :updated_at: '2018-12-28T19:14:05+00:00'
+    :created_at: '2018-12-28T19:14:05+00:00'
+    :id: 2x228YzfK0gIAMAuqsiKOm
+- :title: bel-12
+  :description: Horses at Chamounix stables.
+  :url: "//images.ctfassets.net/sib29204iua7/1Pxr7p6sec2eaiUG4kkqwq/a2e3beceee5db696f1dd0ec8b101b2e4/bel-12.jpg"
+  :_meta:
+    :updated_at: '2018-12-28T19:14:17+00:00'
+    :created_at: '2018-12-28T19:14:17+00:00'
+    :id: 1Pxr7p6sec2eaiUG4kkqwq
+:more_natural: true
+:dogs: true

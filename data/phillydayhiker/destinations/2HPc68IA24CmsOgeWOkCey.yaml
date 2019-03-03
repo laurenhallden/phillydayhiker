@@ -1,0 +1,114 @@
+---
+:id: 2HPc68IA24CmsOgeWOkCey
+:_meta:
+  :content_type_id: destination
+  :updated_at: '2019-03-01T14:58:57+00:00'
+  :created_at: '2018-12-27T19:20:00+00:00'
+  :id: 2HPc68IA24CmsOgeWOkCey
+:updated_at: !ruby/object:DateTime 2018-12-30 00:00:00.000000000 Z
+:name: Centennial Arboretum
+:slug: centennial-arboretum
+:review: |-
+  #### What’s to love
+  Almost 150 years ago, when massive crowds descended on Philadelphia to attend the country’s first World’s Fair, the grounds and greenhouses at Centennial Arboretum delighted spectators with a unique collection of horticultural specimens from around the world. And they still do! (Although the original buildings were destroyed in the 50’s—*thanks,* fire.)
+
+  The arboretum doesn’t have many proper hiking trails, but west Fairmount Park’s hidden history makes the trip worthwhile. Around every turn of these manicured paths you’ll find unique plants, water features, sculptures of famous musicians and writers—and of course there’s Shofuso, a replica of a traditional 17th-century Japanese house and garden.
+
+  There *are* some woods here, and in exploring them I stumbled across one of the area’s secret treasures: American sculptor Martin Puryear’s observation tower, Pavilion in the Trees. (I studied fine arts in college and Puryear was a particular favorite of mine, so it was a total nerd-out moment when I realized who built this thing.) Puryear’s sculptures are often created by carefully bending and arranging strips of wood to form smooth, organic shapes, and his pavilion exhibits the same graceful curves.
+
+  #### Tips and quirks
+  - You can tour both the horticulture center and the Japanese House, but on the day I tired, the former was setting up for a wedding and the latter was hosting a private group. Might wanna call ahead.
+  - [Belmont Plateau](/destinations/belmont-plateau) is within walking distance from here, so if you’re really jonesing for a walk in the woods it would be feasible to do both. You’d probably get whiplash from the change of environments, though.
+  - Legend has it that a Lenape burial ground is nearby (perhaps, in fact, right beneath the Schuylkill Expressway), and a great stone turtle made of boulders can still be found in the ravine somewhere between the arboretum and Memorial Hall.
+:acres: 27
+:latitude: 39.984453
+:longitude: -75.209977
+:website: https://www.phila.gov/parks-rec-finder/#/location/west-park/56a8f87b7a8cee5e3a25b14d
+:gallery:
+- :title: cen-1
+  :description: Shofuso Japanese House.
+  :url: "//images.ctfassets.net/sib29204iua7/3JdLA7JJOMcyIIcU0KOWsy/53bf82c833205eb8820d454bfb2de384/cen-1.jpg"
+  :_meta:
+    :updated_at: '2018-12-30T00:20:12+00:00'
+    :created_at: '2018-12-30T00:20:12+00:00'
+    :id: 3JdLA7JJOMcyIIcU0KOWsy
+- :title: cen-2
+  :description: Gardens surrounding Shofuso.
+  :url: "//images.ctfassets.net/sib29204iua7/2nQUqZcWY4a4KaOUsMuOeC/18c7d493927b1684ea136690fb7f4ac3/cen-2.jpg"
+  :_meta:
+    :updated_at: '2018-12-30T00:20:25+00:00'
+    :created_at: '2018-12-30T00:20:25+00:00'
+    :id: 2nQUqZcWY4a4KaOUsMuOeC
+- :title: cen-3
+  :description: ''
+  :url: "//images.ctfassets.net/sib29204iua7/41ZZwgRWbKIIycI88cU8i6/61235eb49c495975bf35d03e09ba682a/cen-3.jpg"
+  :_meta:
+    :updated_at: '2018-12-30T00:21:38+00:00'
+    :created_at: '2018-12-30T00:21:38+00:00'
+    :id: 41ZZwgRWbKIIycI88cU8i6
+- :title: cen-4
+  :description: 
+  :url: "//images.ctfassets.net/sib29204iua7/17TOCOvHxQci2IYoc8IKUg/a94e3426823a6fe60476da39b4841f57/cen-4.jpg"
+  :_meta:
+    :updated_at: '2018-12-30T00:21:49+00:00'
+    :created_at: '2018-12-30T00:21:49+00:00'
+    :id: 17TOCOvHxQci2IYoc8IKUg
+- :title: cen-5
+  :description: 
+  :url: "//images.ctfassets.net/sib29204iua7/12z2gHWIJSmUIWCEAOOQOO/53758062d393a609feedb1a5f3bcb6cc/cen-5.jpg"
+  :_meta:
+    :updated_at: '2018-12-30T00:22:03+00:00'
+    :created_at: '2018-12-30T00:22:03+00:00'
+    :id: 12z2gHWIJSmUIWCEAOOQOO
+- :title: cen-6
+  :description: 
+  :url: "//images.ctfassets.net/sib29204iua7/3KKO0wRP0AcYcamgIQGMQU/b583627df3262df3f3403892212af96e/cen-6.jpg"
+  :_meta:
+    :updated_at: '2018-12-30T00:22:09+00:00'
+    :created_at: '2018-12-30T00:22:09+00:00'
+    :id: 3KKO0wRP0AcYcamgIQGMQU
+- :title: cen-7
+  :description: American sculptor Martin Puryear's Pavilion in the Trees.
+  :url: "//images.ctfassets.net/sib29204iua7/2B3Ai5y2BmE0C26gK0KuCM/e9bc3b2fb0fc88c2337926144868491b/cen-7.jpg"
+  :_meta:
+    :updated_at: '2018-12-30T00:22:21+00:00'
+    :created_at: '2018-12-30T00:22:21+00:00'
+    :id: 2B3Ai5y2BmE0C26gK0KuCM
+- :title: cen-8
+  :description: The Pavilion from afar.
+  :url: "//images.ctfassets.net/sib29204iua7/4PVALSK5pYqquuIs8uA2ek/82d6c958b124ebf3771dfc4c502b1a91/cen-8.jpg"
+  :_meta:
+    :updated_at: '2018-12-30T00:22:37+00:00'
+    :created_at: '2018-12-30T00:22:37+00:00'
+    :id: 4PVALSK5pYqquuIs8uA2ek
+- :title: cen-9
+  :description: 
+  :url: "//images.ctfassets.net/sib29204iua7/5wCzyTBWkEGMQgw04EOUw4/3813d86ba79518de23e41efdc6991540/cen-9.jpg"
+  :_meta:
+    :updated_at: '2018-12-30T00:22:50+00:00'
+    :created_at: '2018-12-30T00:22:50+00:00'
+    :id: 5wCzyTBWkEGMQgw04EOUw4
+- :title: cen-10
+  :description: Old specimen tree on the grounds.
+  :url: "//images.ctfassets.net/sib29204iua7/5l4YS9N0o8Maaw6sGI8qMw/ad755a615386873ec8c61ad7f53f1bba/cen-10.jpg"
+  :_meta:
+    :updated_at: '2018-12-30T00:22:59+00:00'
+    :created_at: '2018-12-30T00:22:59+00:00'
+    :id: 5l4YS9N0o8Maaw6sGI8qMw
+- :title: cen-11
+  :description: The Horticultural Center.
+  :url: "//images.ctfassets.net/sib29204iua7/1D68ZqIOrCMoOkGw4QGu2G/3756d42e7836f48482cb3f29384a99f0/cen-11.jpg"
+  :_meta:
+    :updated_at: '2018-12-30T00:23:14+00:00'
+    :created_at: '2018-12-30T00:23:14+00:00'
+    :id: 1D68ZqIOrCMoOkGw4QGu2G
+- :title: cen-12
+  :description: They're coming to find you...
+  :url: "//images.ctfassets.net/sib29204iua7/1hTB01KJbEao6GmOAoIICW/0812586076ee19558fd934e69bbbba3a/cen-12.jpg"
+  :_meta:
+    :updated_at: '2018-12-30T00:23:37+00:00'
+    :created_at: '2018-12-30T00:23:31+00:00'
+    :id: 1hTB01KJbEao6GmOAoIICW
+:has_easy_trails: true
+:more_amenities: true
+:dogs: true

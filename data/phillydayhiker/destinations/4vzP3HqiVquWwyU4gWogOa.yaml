@@ -1,0 +1,125 @@
+---
+:id: 4vzP3HqiVquWwyU4gWogOa
+:_meta:
+  :content_type_id: destination
+  :updated_at: '2019-03-01T15:00:56+00:00'
+  :created_at: '2018-12-27T19:23:01+00:00'
+  :id: 4vzP3HqiVquWwyU4gWogOa
+:updated_at: !ruby/object:DateTime 2018-12-30 00:00:00.000000000 Z
+:name: Tyler State Park
+:slug: tyler-state-park
+:review: |-
+  #### What’s to love
+  Starting in the 1920’s, the land that is now Tyler State Park operated as a dairy farm, owned by—you guessed it—a family named Tyler. The Tylers also raised poultry, sheep, pigs and horses on the fields and rolling hills along the Neshaminy Creek, making use of a collection of late 18th-century farm buildings (many of which are still in use as private residences today).
+
+  The modern Tyler State Park has retained the charm of its agrarian roots. On your visit you’ll encounter plenty of horses, and you’ll hike along the edges of fields that still grow corn and grains. But there’s plenty of woods here as well, and you can access them by hiking the well-marked bridle trails.
+
+  Tyler State Park is the ideal family destination—there’s a little something here for everyone. The park has 9 miles of equestrian trails, 10 miles of paved multi-use trails, and 4 additional miles for hikers only. There’s also a canoe rental, fishing, multiple picnic areas, a couple of dams you can walk along, a performance space, an arts center, ice cream trucks, sledding, and a 36-hole disc golf course. Phew!
+
+  #### Tips and quirks
+  - This is a great place to spot some wildlife, even if you stay on the paved trails—on my last visit I encountered snakes, deer, wild turkeys, toads, and plenty of birds. However, on one of my earlier visits, I stepped directly in a yellowjacket nest hidden under a fallen log on one of the bridle trails. Mind your feet (and bring your EpiPen)!
+  - Since the paved trails are so well maintained, you can throw your trusty Philly road bike in your trunk and get some nice, tough hill workouts here.
+:acres: 1711
+:miles_trails: 23.0
+:latitude: 40.232666
+:longitude: -74.972999
+:website: http://www.dcnr.pa.gov/StateParks/FindAPark/TylerStatePark/Pages/default.aspx
+:trail_map_image:
+  :title: Tyler State Park
+  :description: Tyler State Park
+  :url: "//images.ctfassets.net/sib29204iua7/7tdL7CknRYkQCKgoEkueu0/0ba14a5d675bc22450e0154e3320e9b2/tyler-state-park.jpg"
+  :_meta:
+    :updated_at: '2018-12-29T17:38:04+00:00'
+    :created_at: '2018-12-29T17:38:04+00:00'
+    :id: 7tdL7CknRYkQCKgoEkueu0
+:gallery:
+- :title: tyler-1
+  :description: Pedestrian causeway over the Neshaminy. A+ spot for dog watching.
+  :url: "//images.ctfassets.net/sib29204iua7/3mqSjqmRXO6AUWm0Y4IY68/c2e985c0a1215d3cabbd18cc21684c84/tyler-1.jpg"
+  :_meta:
+    :updated_at: '2018-12-31T00:56:46+00:00'
+    :created_at: '2018-12-31T00:56:46+00:00'
+    :id: 3mqSjqmRXO6AUWm0Y4IY68
+- :title: tyler-2
+  :description: Turkeys on one of the old farmhouses.
+  :url: "//images.ctfassets.net/sib29204iua7/6nk2fBjbu8IKW0wAUIIgAc/b873f3df1a10d2b5019d3ec232a69555/tyler-2.jpg"
+  :_meta:
+    :updated_at: '2018-12-31T00:56:59+00:00'
+    :created_at: '2018-12-31T00:56:59+00:00'
+    :id: 6nk2fBjbu8IKW0wAUIIgAc
+- :title: tyler-3
+  :description: 
+  :url: "//images.ctfassets.net/sib29204iua7/LDvzaa25oc84UcUg2qo4w/2ea6a4494e84e0ea81ad3edfa774099d/tyler-3.jpg"
+  :_meta:
+    :updated_at: '2018-12-31T00:57:11+00:00'
+    :created_at: '2018-12-31T00:57:11+00:00'
+    :id: LDvzaa25oc84UcUg2qo4w
+- :title: tyler-4
+  :description: Sycamores lining one of the paved trails.
+  :url: "//images.ctfassets.net/sib29204iua7/6MjbJwCeacM0Mas0GoKWoM/bbd996262419b43fc4e944757d281e1f/tyler-4.jpg"
+  :_meta:
+    :updated_at: '2018-12-31T00:59:44+00:00'
+    :created_at: '2018-12-31T00:57:17+00:00'
+    :id: 6MjbJwCeacM0Mas0GoKWoM
+- :title: tyler-5
+  :description: The Neshaminy Creek.
+  :url: "//images.ctfassets.net/sib29204iua7/2bykegW1XuQKGySC6oiOo2/bc7de09fd10ca1b2642600e8a589c87a/tyler-5.jpg"
+  :_meta:
+    :updated_at: '2018-12-31T00:57:30+00:00'
+    :created_at: '2018-12-31T00:57:30+00:00'
+    :id: 2bykegW1XuQKGySC6oiOo2
+- :title: tyler-6
+  :description: Bridle trail across an open field.
+  :url: "//images.ctfassets.net/sib29204iua7/4OJAGi819YAwuIGSUKC2mW/70b63b0dc28199eb76cb26961c4b0d3e/tyler-6.jpg"
+  :_meta:
+    :updated_at: '2018-12-31T00:57:41+00:00'
+    :created_at: '2018-12-31T00:57:41+00:00'
+    :id: 4OJAGi819YAwuIGSUKC2mW
+- :title: tyler-7
+  :description: I overheard someone say “I love this place! I’ve never seen so many
+    toads!”
+  :url: "//images.ctfassets.net/sib29204iua7/6a6udVAwCsMeyQsSKU6ESg/174a36c973100188734457321ad7fa6a/tyler-7.jpg"
+  :_meta:
+    :updated_at: '2018-12-31T00:57:54+00:00'
+    :created_at: '2018-12-31T00:57:54+00:00'
+    :id: 6a6udVAwCsMeyQsSKU6ESg
+- :title: tyler-8
+  :description: The Schofield Ford covered bridge.
+  :url: "//images.ctfassets.net/sib29204iua7/1TSJaXJmSUm8C0EcKo28C/9872a7132868879ae86466e94bf58939/tyler-8.jpg"
+  :_meta:
+    :updated_at: '2018-12-31T00:59:53+00:00'
+    :created_at: '2018-12-31T00:58:10+00:00'
+    :id: 1TSJaXJmSUm8C0EcKo28C
+- :title: tyler-9
+  :description: Horses like swimming too!
+  :url: "//images.ctfassets.net/sib29204iua7/2Cr2nrXHnYGkYeso6MQsEW/b1cb78d62402950625f0fa6b72062a36/tyler-9.jpg"
+  :_meta:
+    :updated_at: '2018-12-31T00:58:22+00:00'
+    :created_at: '2018-12-31T00:58:22+00:00'
+    :id: 2Cr2nrXHnYGkYeso6MQsEW
+- :title: tyler-10
+  :description: The trails are hilly, but you’re rewarded with pretty expansive views.
+  :url: "//images.ctfassets.net/sib29204iua7/2eAOWZUr6wsGY66QQGuSGU/3aa4bc5e031c47723d6068b2fe5b3110/tyler-10.jpg"
+  :_meta:
+    :updated_at: '2018-12-31T00:58:33+00:00'
+    :created_at: '2018-12-31T00:58:33+00:00'
+    :id: 2eAOWZUr6wsGY66QQGuSGU
+- :title: tyler-11
+  :description: The White Pine Farm is still in operation.
+  :url: "//images.ctfassets.net/sib29204iua7/4lCt6mTeCQc0GSuQScmaca/62380488a90da3eea3afc9b994759ca3/tyler-11.jpg"
+  :_meta:
+    :updated_at: '2018-12-31T00:58:46+00:00'
+    :created_at: '2018-12-31T00:58:46+00:00'
+    :id: 4lCt6mTeCQc0GSuQScmaca
+- :title: tyler-12
+  :description: I wouldn’t mess with this... creature... guarding the Tyler Park Center
+    for the Arts.
+  :url: "//images.ctfassets.net/sib29204iua7/2SZI9C7bXqMC2Ek0yaMO8M/269fac1940f6d716988529f130116d04/tyler-12.jpg"
+  :_meta:
+    :updated_at: '2018-12-31T00:58:58+00:00'
+    :created_at: '2018-12-31T00:58:58+00:00'
+    :id: 2SZI9C7bXqMC2Ek0yaMO8M
+:has_easy_trails: true
+:more_amenities: true
+:dogs: true
+:boats: true

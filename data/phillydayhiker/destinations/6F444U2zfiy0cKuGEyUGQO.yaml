@@ -1,0 +1,98 @@
+---
+:id: 6F444U2zfiy0cKuGEyUGQO
+:_meta:
+  :content_type_id: destination
+  :updated_at: '2019-03-01T14:59:04+00:00'
+  :created_at: '2018-12-27T19:20:09+00:00'
+  :id: 6F444U2zfiy0cKuGEyUGQO
+:updated_at: !ruby/object:DateTime 2018-12-30 00:00:00.000000000 Z
+:name: Elk Neck State Park
+:slug: elk-neck-state-park
+:review: |-
+  #### What’s to love
+  If, like me, you’ve been ignoring the state of Maryland because you assume it’s just too far away for a day trip, I am here to report that it’s not! Not at all. In fact, this beautiful state park is just 75 minutes down I95.
+
+  Elk Neck State Park is sandwiched between the northernmost end of the Chesapeake Bay to the west, and the Elk River to the east. There’s a beautiful rocky shoreline to walk, here, and some impressive cliffs made of white clay. No, really. Clay cliffs. When I read that particular tidbit in the trail description I was prepared to be unimpressed, but it’s legit—there are huge cliffs along the Chesapeake. If you hike the shoreline beneath them, you’ll find gobs of actual clay that have eroded down the cliffside.
+
+  I’ve only explored a part of this park, but there’s also a lighthouse at the very southern tip, plus lots of camping, boating, swimming, and other outdoor facilities.
+
+  #### Tips and quirks
+  - Maryland State Park fees apply for most of the year! It’s $5 for out-of-state plates.
+  - The best hike here is clearly the White Banks Trail. It’s a bit of a steep climb, but not terrible, and you’ll be rewarded with some great views of the cliffside and the Chesapeake Bay. And maybe a bald eagle or two. (I saw two!)
+  - Hike the shoreline under the cliffs for some really interesting geological features. You’ll see the cliff face, a variety of multicolored rocks (can someone identify what these are, please??), and a huge boulder right at the water line, inscribed "Mary’s Rock House." You can climb it if you’re careful.
+  - Hiking further south, you'll encounter a marsh with an active beaver dam, and a harbor with a second swimming hole.
+:acres: 2188
+:miles_trails: 12.0
+:latitude: 39.484025
+:longitude: -75.98609
+:website: http://dnr.maryland.gov/publiclands/Pages/central/elkneck.aspx
+:trail_map_image:
+  :title: Elk Neck Map
+  :description: Elk Neck Map
+  :url: "//images.ctfassets.net/sib29204iua7/5Po3avNTX2wEOGUYoUGkKY/379a69543a6e36d82c095aa07d7f7b3e/elk_neck_map.png"
+  :_meta:
+    :updated_at: '2018-12-29T16:01:29+00:00'
+    :created_at: '2018-12-29T16:01:29+00:00'
+    :id: 5Po3avNTX2wEOGUYoUGkKY
+:gallery:
+- :title: elk-1
+  :description: From the top of the White Banks trail.
+  :url: "//images.ctfassets.net/sib29204iua7/3asb2ePTFCGUKCmmMA48YU/a779d62dbc80cbe1efc466583deae5df/elk-1.jpg"
+  :_meta:
+    :updated_at: '2018-12-30T00:27:01+00:00'
+    :created_at: '2018-12-30T00:27:01+00:00'
+    :id: 3asb2ePTFCGUKCmmMA48YU
+- :title: elk-2
+  :description: The clay cliffs.
+  :url: "//images.ctfassets.net/sib29204iua7/draYd5NR9QigWoweGcCkq/95c91036def615cd7a1ed1d66f8bf998/elk-2.jpg"
+  :_meta:
+    :updated_at: '2018-12-30T00:27:16+00:00'
+    :created_at: '2018-12-30T00:27:16+00:00'
+    :id: draYd5NR9QigWoweGcCkq
+- :title: elk-3
+  :description: Beaver dam!
+  :url: "//images.ctfassets.net/sib29204iua7/58VLx2wxoIWQUyQMYIcC0g/056db98ad76492351a8197c040070b2d/elk-3.jpg"
+  :_meta:
+    :updated_at: '2018-12-30T00:27:28+00:00'
+    :created_at: '2018-12-30T00:27:28+00:00'
+    :id: 58VLx2wxoIWQUyQMYIcC0g
+- :title: elk-4
+  :description: What are these nifty rocks?
+  :url: "//images.ctfassets.net/sib29204iua7/2pev4OZBOMIQcUeekMakU4/2a2ac22145e4b3d0d3208ff8ff834134/elk-4.jpg"
+  :_meta:
+    :updated_at: '2018-12-30T00:27:40+00:00'
+    :created_at: '2018-12-30T00:27:40+00:00'
+    :id: 2pev4OZBOMIQcUeekMakU4
+- :title: elk-5
+  :description: Mary’s Rock House and the Chesapeake shoreline.
+  :url: "//images.ctfassets.net/sib29204iua7/6I6sVnKQ6IkoUmUgWwYWic/8be30f115910a0836c3252b773425316/elk-5.jpg"
+  :_meta:
+    :updated_at: '2018-12-30T00:27:54+00:00'
+    :created_at: '2018-12-30T00:27:54+00:00'
+    :id: 6I6sVnKQ6IkoUmUgWwYWic
+- :title: elk-6
+  :description: You can get up the rock, but back down is another matter.
+  :url: "//images.ctfassets.net/sib29204iua7/42niBJeQTmKYOkMKGCsKO2/97f43772cd76366ecf57a7c66f776654/elk-6.jpg"
+  :_meta:
+    :updated_at: '2018-12-30T00:29:28+00:00'
+    :created_at: '2018-12-30T00:28:05+00:00'
+    :id: 42niBJeQTmKYOkMKGCsKO2
+- :title: elk-7
+  :description: View from the North East Beach.
+  :url: "//images.ctfassets.net/sib29204iua7/5sU5FNLQzuMgs0I6ucwMuY/3b133523a0edb27c6d7f5a3b05ff834c/elk-7.jpg"
+  :_meta:
+    :updated_at: '2018-12-30T00:28:18+00:00'
+    :created_at: '2018-12-30T00:28:18+00:00'
+    :id: 5sU5FNLQzuMgs0I6ucwMuY
+- :title: elk-8
+  :description: 
+  :url: "//images.ctfassets.net/sib29204iua7/4dCozGcJRSUsaG2km8waye/0af35eea7542fb2556fa3091c0a49c96/elk-8.jpg"
+  :_meta:
+    :updated_at: '2018-12-30T00:28:34+00:00'
+    :created_at: '2018-12-30T00:28:34+00:00'
+    :id: 4dCozGcJRSUsaG2km8waye
+:has_easy_trails: true
+:has_difficult_trails: true
+:more_amenities: true
+:dogs: true
+:boats: true

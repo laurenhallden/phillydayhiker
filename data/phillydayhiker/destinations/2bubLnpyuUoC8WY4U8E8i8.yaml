@@ -1,0 +1,90 @@
+---
+:id: 2bubLnpyuUoC8WY4U8E8i8
+:_meta:
+  :content_type_id: destination
+  :updated_at: '2019-03-01T15:00:14+00:00'
+  :created_at: '2018-12-27T18:31:32+00:00'
+  :id: 2bubLnpyuUoC8WY4U8E8i8
+:updated_at: !ruby/object:DateTime 2018-12-30 00:00:00.000000000 Z
+:name: Rolling Hill Park
+:slug: rolling-hill-park
+:review: |-
+  #### What’s to love
+  Travel down lovely winding roads and under one-lane bridges to this gem of a park in Lower Merion. Rolling Hill’s main differentiator is its dog-friendliness; there are both on and off-leash trails and fenced play areas here (though Yelp suggests you need to be a Lower Merion resident to obtain a proper off-leash permit, sad trombone).
+
+  The trails here take you through deep, established woods and open meadows. Hike the blue trail down to Mill Creek and investigate the ruins of several large stone buildings that housed millworkers before the turn of the century. The slope of this trail can be quite steep and the journey back to the parking lot counts as a great booty workout (again, that’s according to Yelp, but this time I can verify).
+
+  #### Tips and quirks
+  - Some of the less populated trails here are actually maintained by a private group of donors. They’re collectively referred to as the [Bridlewild Trail](http://www.bridlewildtrails.org/){:target="_blank"}, and as near as I can figure, some sections are closed to public use and some are not. Read the signs carefully, and check out the review of the nearby [Saunders Woods Preserve](/destinations/saunders-woods-preserve) for more about Bridlewild.
+:acres: 90
+:latitude: 40.039993
+:longitude: -75.267956
+:trail_map_image:
+  :title: Rolling Hill Map
+  :description: Rolling Hill Map
+  :url: "//images.ctfassets.net/sib29204iua7/6DyrVVLEAwyKegmkqwkmI8/eade262a84e68481fbbe70d49f549f3a/rollinghillmap.jpg"
+  :_meta:
+    :updated_at: '2018-12-29T17:03:27+00:00'
+    :created_at: '2018-12-29T17:03:27+00:00'
+    :id: 6DyrVVLEAwyKegmkqwkmI8
+:gallery:
+- :title: rol-1
+  :description: Mill creek.
+  :url: "//images.ctfassets.net/sib29204iua7/6rOxlNpXiMQWqSmaK6CUCE/e3ffad7ef6ad626ac60273d3689c4d60/rol-1.jpg"
+  :_meta:
+    :updated_at: '2018-12-31T00:43:53+00:00'
+    :created_at: '2018-12-31T00:43:53+00:00'
+    :id: 6rOxlNpXiMQWqSmaK6CUCE
+- :title: rol-2
+  :description: Buildings that used to house mill workers.
+  :url: "//images.ctfassets.net/sib29204iua7/IAICBrKQSWIcgQUm4u2WI/8251f32b7616f9241dd0dd8198fb2900/rol-2.jpg"
+  :_meta:
+    :updated_at: '2018-12-31T00:44:05+00:00'
+    :created_at: '2018-12-31T00:44:05+00:00'
+    :id: IAICBrKQSWIcgQUm4u2WI
+- :title: rol-3
+  :description: Lots of deer here!
+  :url: "//images.ctfassets.net/sib29204iua7/52F016x8NGYYoqMOqkEEkK/ed516bde45958ad6ec7da68a6b1583ef/rol-3.jpg"
+  :_meta:
+    :updated_at: '2018-12-31T00:44:15+00:00'
+    :created_at: '2018-12-31T00:44:15+00:00'
+    :id: 52F016x8NGYYoqMOqkEEkK
+- :title: rol-4
+  :description: The drop-off is steep.
+  :url: "//images.ctfassets.net/sib29204iua7/50KgeHRHj2o6iGUGuQoY66/1a101372242f7be6b24a4996c63fa5b8/rol-4.jpg"
+  :_meta:
+    :updated_at: '2018-12-31T00:44:26+00:00'
+    :created_at: '2018-12-31T00:44:26+00:00'
+    :id: 50KgeHRHj2o6iGUGuQoY66
+- :title: rol-5
+  :description: A more recently abandoned industrial building is lonely.
+  :url: "//images.ctfassets.net/sib29204iua7/Hl0fWc7FYaKwquyIaAwwC/4fb513439139cdd66bf8e9c80f1d18c8/rol-5.jpg"
+  :_meta:
+    :updated_at: '2018-12-31T00:44:38+00:00'
+    :created_at: '2018-12-31T00:44:38+00:00'
+    :id: Hl0fWc7FYaKwquyIaAwwC
+- :title: rol-6
+  :description: Ruins of an old stone building in the northeast corner of the park.
+  :url: "//images.ctfassets.net/sib29204iua7/H7KpFMFpqSkgqG0qImGgS/db7be996e7763cedfc6a08035b19805a/rol-6.jpg"
+  :_meta:
+    :updated_at: '2018-12-31T00:44:48+00:00'
+    :created_at: '2018-12-31T00:44:48+00:00'
+    :id: H7KpFMFpqSkgqG0qImGgS
+- :title: rol-7
+  :description: A shed antler.
+  :url: "//images.ctfassets.net/sib29204iua7/1SqK943bDKAsAEAyoGGq4/e833bca8923a14aa8c558453e164f213/rol-7.jpg"
+  :_meta:
+    :updated_at: '2018-12-31T00:45:02+00:00'
+    :created_at: '2018-12-31T00:45:02+00:00'
+    :id: 1SqK943bDKAsAEAyoGGq4
+- :title: rol-8
+  :description: Shelter!
+  :url: "//images.ctfassets.net/sib29204iua7/5k9AZhcd0se28Wu2wam66I/4cc52188a76a7e350795e9d527d2d67e/rol-8.jpg"
+  :_meta:
+    :updated_at: '2018-12-31T00:45:10+00:00'
+    :created_at: '2018-12-31T00:45:10+00:00'
+    :id: 5k9AZhcd0se28Wu2wam66I
+:has_easy_trails: true
+:has_difficult_trails: true
+:more_amenities: true
+:dogs: true

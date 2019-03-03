@@ -1,0 +1,120 @@
+---
+:id: 2ZAO8dRQdOswa44QmUkwwO
+:_meta:
+  :content_type_id: destination
+  :updated_at: '2019-03-01T15:00:23+00:00'
+  :created_at: '2018-12-27T19:22:26+00:00'
+  :id: 2ZAO8dRQdOswa44QmUkwwO
+:updated_at: !ruby/object:DateTime 2018-12-30 00:00:00.000000000 Z
+:name: Saunders Woods Preserve
+:slug: saunders-woods-preserve
+:review: |-
+  #### What’s to love
+  This peaceful wooded preserve is owned by the [Natural Lands Trust](https://natlands.org/){:target="_blank"}, one of the region’s oldest and most comprehensive conservation organizations. Side note: the Trust manages 42 separate pieces of land, but for visitors, it recommends a shortlist of 18 of the most accessible preserves—there’s even [an app](https://natlands.org/app/){:target="_blank"} to help you find one close to you!
+
+  The Saunders Woods Preserve itself isn’t large, and its hiking trails form an easy loop around an open meadow (where dozens of new saplings are currently being cultivated) and through the woods along the banks of an unnamed (but very picturesque) tributary of the Schuylkill. As you explore, you’ll find birdhouses, trails lined with wildflowers, and a 19th century barn and springhouse.
+
+  #### Tips and quirks
+  - You can still get in a nice long hike by hooking up with the [Bridlewild Trail](http://www.bridlewildtrails.org/){:target="_blank"}—a network of hiking and equestrian paths that wind through the Gladwyne community on largely private land. Maps of Bridlewild are hard to come by, in part because of the private property thing, but the network stretches for miles through the area’s rolling hills. Find the connection at the north tip of the Preserve, and be on extra good behavior.
+  - [Rolling Hill Park](/destinations/rolling-hill-park) is nearby. It seems possible to make it most of the way over there via Bridlewild, if you were so inclined.
+  - Curious about the other 17 preserves on the Natural Lands Trust list? If you hike them all and collect a code word displayed at each one, the Trust will [send you a prize!](https://natlands.org/wp-content/uploads/2010/12/FindYourselfOutsideChecklist.pdf){:target="_blank"} So far I have...two code words.
+:acres: 25
+:miles_trails: 1.5
+:latitude: 40.042107
+:longitude: -75.289201
+:website: https://natlands.org/visit/
+:trail_map_image:
+  :title: Saunders Woods Brochure Map
+  :description: Saunders Woods Brochure Map
+  :url: "//images.ctfassets.net/sib29204iua7/4J5NrfB24gOaUkCqsKO4KU/b40fc5ec1c2b7dcd9dad8c1cb6b49eb2/SaundersWoodsBrochureMap.jpg"
+  :_meta:
+    :updated_at: '2018-12-29T17:05:09+00:00'
+    :created_at: '2018-12-29T17:05:09+00:00'
+    :id: 4J5NrfB24gOaUkCqsKO4KU
+:gallery:
+- :title: saun-1
+  :description: A bench overlooks the tributary.
+  :url: "//images.ctfassets.net/sib29204iua7/4x6qeu0ZYsO0sW8A4sW6e8/d479cd38be56b3dc8dd5d9db3b5fce3c/saun-1.jpg"
+  :_meta:
+    :updated_at: '2018-12-31T00:46:32+00:00'
+    :created_at: '2018-12-31T00:46:32+00:00'
+    :id: 4x6qeu0ZYsO0sW8A4sW6e8
+- :title: saun-2
+  :description: An old barn from the 1800’s can be rented for special events.
+  :url: "//images.ctfassets.net/sib29204iua7/2OIVBdhnG0CaMOI2oGYGK0/b348aae6dfb0fa876a73ad8655c309de/saun-2.jpg"
+  :_meta:
+    :updated_at: '2018-12-31T00:46:39+00:00'
+    :created_at: '2018-12-31T00:46:39+00:00'
+    :id: 2OIVBdhnG0CaMOI2oGYGK0
+- :title: saun-3
+  :description: Spring at the Preserve.
+  :url: "//images.ctfassets.net/sib29204iua7/eCiwLzwrbq8wSWW82g02w/18da49b4606441367e461c9e91be1701/saun-3.jpg"
+  :_meta:
+    :updated_at: '2018-12-31T00:46:50+00:00'
+    :created_at: '2018-12-31T00:46:50+00:00'
+    :id: eCiwLzwrbq8wSWW82g02w
+- :title: saun-4
+  :description: The springhouse.
+  :url: "//images.ctfassets.net/sib29204iua7/61xsZjuFxuYMYAG2iq8Cy/d96eaa81501567684f9f6b621b7c8c0d/saun-4.jpg"
+  :_meta:
+    :updated_at: '2018-12-31T00:47:02+00:00'
+    :created_at: '2018-12-31T00:47:02+00:00'
+    :id: 61xsZjuFxuYMYAG2iq8Cy
+- :title: saun-5
+  :description: New trees growing at the edge of the meadow.
+  :url: "//images.ctfassets.net/sib29204iua7/YfnWXS7A0EUE6saWWIUSQ/1e11d3d9b7ab2221955ec6facf9acde1/saun-5.jpg"
+  :_meta:
+    :updated_at: '2018-12-31T00:47:15+00:00'
+    :created_at: '2018-12-31T00:47:15+00:00'
+    :id: YfnWXS7A0EUE6saWWIUSQ
+- :title: saun-6
+  :description: The tributary at the Preserve.
+  :url: "//images.ctfassets.net/sib29204iua7/1i4bSPepjkAKMQCsIYu4wq/87b05e33c912178ae6cdfeadbbc86e8e/saun-6.jpg"
+  :_meta:
+    :updated_at: '2018-12-31T00:47:26+00:00'
+    :created_at: '2018-12-31T00:47:26+00:00'
+    :id: 1i4bSPepjkAKMQCsIYu4wq
+- :title: saun-7
+  :description: Wildflowers along the trails.
+  :url: "//images.ctfassets.net/sib29204iua7/6A6E22kdm8I00Gk6SWSKom/9aecf33b877888aff3e997668b13cdf3/saun-7.jpg"
+  :_meta:
+    :updated_at: '2018-12-31T00:47:38+00:00'
+    :created_at: '2018-12-31T00:47:38+00:00'
+    :id: 6A6E22kdm8I00Gk6SWSKom
+- :title: saun-8
+  :description: A section of the Bridlewild Trail.
+  :url: "//images.ctfassets.net/sib29204iua7/149hWxNCzG8CyMYOEQayQa/d8e87907eb1152b5a6e7cc4e79c20b83/saun-8.jpg"
+  :_meta:
+    :updated_at: '2018-12-31T00:47:52+00:00'
+    :created_at: '2018-12-31T00:47:52+00:00'
+    :id: 149hWxNCzG8CyMYOEQayQa
+- :title: saun-9
+  :description: A grove of beech trees on a hill on the Bridlewild Trail.
+  :url: "//images.ctfassets.net/sib29204iua7/4nymMPQTQco8q0EAICeOEq/12f937b5cc684c43751b076c17a9d8b9/saun-9.jpg"
+  :_meta:
+    :updated_at: '2018-12-31T00:48:05+00:00'
+    :created_at: '2018-12-31T00:48:05+00:00'
+    :id: 4nymMPQTQco8q0EAICeOEq
+- :title: saun-10
+  :description: The tributary continues along Bridlewild.
+  :url: "//images.ctfassets.net/sib29204iua7/5O8sbctFIcIcGaSSOMWuKG/67a0e573e049891ac9f6e245fb692329/saun-10.jpg"
+  :_meta:
+    :updated_at: '2018-12-31T01:00:48+00:00'
+    :created_at: '2018-12-31T00:48:16+00:00'
+    :id: 5O8sbctFIcIcGaSSOMWuKG
+- :title: saun-11
+  :description: Smooch!
+  :url: "//images.ctfassets.net/sib29204iua7/6QXyFolpTi8UcgioYOaKge/87f84a9a5c50ee3751477c10fedb0453/saun-11.jpg"
+  :_meta:
+    :updated_at: '2018-12-31T00:48:26+00:00'
+    :created_at: '2018-12-31T00:48:26+00:00'
+    :id: 6QXyFolpTi8UcgioYOaKge
+- :title: saun-12
+  :description: A ridge of the Bridlewild trail, lined with wildflowers.
+  :url: "//images.ctfassets.net/sib29204iua7/1YbAQyE8j2UCsKEuqMmqiu/38c974ea4391d05b16657e72f4fa5d24/saun-12.jpg"
+  :_meta:
+    :updated_at: '2018-12-31T00:48:37+00:00'
+    :created_at: '2018-12-31T00:48:37+00:00'
+    :id: 1YbAQyE8j2UCsKEuqMmqiu
+:has_easy_trails: true
+:more_natural: true

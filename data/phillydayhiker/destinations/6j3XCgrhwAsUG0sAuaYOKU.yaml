@@ -1,0 +1,121 @@
+---
+:id: 6j3XCgrhwAsUG0sAuaYOKU
+:_meta:
+  :content_type_id: destination
+  :updated_at: '2019-03-01T15:02:18+00:00'
+  :created_at: '2018-12-27T19:17:19+00:00'
+  :id: 6j3XCgrhwAsUG0sAuaYOKU
+:updated_at: !ruby/object:DateTime 2018-12-30 00:00:00.000000000 Z
+:name: Appalachian Trail - Bake Oven Knob
+:slug: appalachian-trail-bake-oven-knob
+:review: |-
+  #### What’s to love
+  Looking for something a little challenging? This hike along a stretch of the Appalachian Trail in the picturesque Lehigh Valley is a great candidate. Located just northwest of Allentown and a full 90-minute drive from Philly, it’s at the outer limits of the range this website focuses on—you’ll be tired driving back—but the trip is worth it. Head northeast along the trail to the Bake Oven Knob (or southwest to Bears Rocks), and you’ll be rewarded with some of the best views eastern Pennsylvania has to offer.
+
+  This hike is rocky and includes several scrambles that are just as much climbing as they are hiking, so be prepared with with proper footwear (and water)! Along your route, both on the north and south side of the trail, climbing a few out-of-the-way rocks will give you a surprisingly good vantage point of the Blue Mountain ridge and farmland in the valley, with circling birds of prey right at your eye level.
+
+  #### Tips and quirks
+  - Although the Bake Oven Knob reaches about 1,500 feet in elevation, there’s a dirt and gravel road to a parking lot that gets you very close. The drive is steep, though, and may not be recommended for small cars in wet weather.
+  - Since there road gets you fairly close, and the Knob itself offers a great view to the west, this is a perfect place to watch the sun rise!
+  - Passing the Knob, you can hike roughly 3.5 miles to Blue Mountain Road, or 8 miles to the Lehigh River, giving you 7-mile or 16-mile out and back hike options.
+  - You’ll also pass the Bake Oven shelter, something resembling a covered bus stop where Appalachian trail thru-hikers can sleep under a roof. [The internet says it’s haunted](http://hauntsandhistory.blogspot.com/2009/10/bake-oven-knob.html){:target="_blank"} (of course).
+  - Or pick the opposite direction: a 5-mile stretch that includes Bears Rocks (a fun and slightly tricky climb) and Knife’s Edge. You can find [a campsite nearby.](https://www.whiteblaze.net/forum/showthread.php/37738-New-Tripoli-Campsite){:target="_blank"}
+:miles_trails: 16.0
+:latitude: 40.744703
+:longitude: -75.737873
+:website: http://nps.maps.arcgis.com/apps/webappviewer/index.html?id=6298c848ba2a490588b7f6d25453e4e0
+:trail_map_image:
+  :title: Bake Oven Map
+  :description: Bake Oven Map
+  :url: "//images.ctfassets.net/sib29204iua7/6asspW0t32qAe0Q844IYaE/e79524e454c67e618a9177f51797a33c/Bake-oven-map.png"
+  :_meta:
+    :updated_at: '2018-12-28T18:46:01+00:00'
+    :created_at: '2018-12-28T18:46:01+00:00'
+    :id: 6asspW0t32qAe0Q844IYaE
+:gallery:
+- :title: bake-1
+  :description: View from Bake Oven Knob.
+  :url: "//images.ctfassets.net/sib29204iua7/4vyFjTFnZm4wkMOySQeYu4/bd465396373f45c2f24e6b333c5ba4a8/bake-1.jpg"
+  :_meta:
+    :updated_at: '2018-12-28T18:43:16+00:00'
+    :created_at: '2018-12-28T18:43:16+00:00'
+    :id: 4vyFjTFnZm4wkMOySQeYu4
+- :title: bake-10
+  :description: You’ll know when you’ve reached the right place.
+  :url: "//images.ctfassets.net/sib29204iua7/4RERGufXjWiiwego6iwycm/869f4bc92486a6024df4a9b7678de1b8/bake-10.jpg"
+  :_meta:
+    :updated_at: '2018-12-31T18:24:29+00:00'
+    :created_at: '2018-12-31T18:09:43+00:00'
+    :id: 4RERGufXjWiiwego6iwycm
+- :title: bake-9
+  :description: The Knob is a perfect place to watch the sun rise.
+  :url: "//images.ctfassets.net/sib29204iua7/2NNiXt5r6wkcSGikOWMuCo/819f905a23b3b3ce92b9179805d75035/bake-9.jpg"
+  :_meta:
+    :updated_at: '2018-12-31T18:09:01+00:00'
+    :created_at: '2018-12-31T18:09:01+00:00'
+    :id: 2NNiXt5r6wkcSGikOWMuCo
+- :title: bake-3
+  :description: Looking back at a scramble.
+  :url: "//images.ctfassets.net/sib29204iua7/TrLA1oswQC22k4SEy6oKQ/4e281f123d80498e2a37c5b8ebd915b5/bake-3.jpg"
+  :_meta:
+    :updated_at: '2018-12-28T18:43:39+00:00'
+    :created_at: '2018-12-28T18:43:39+00:00'
+    :id: TrLA1oswQC22k4SEy6oKQ
+- :title: bake-5
+  :description: Bears Rocks.
+  :url: "//images.ctfassets.net/sib29204iua7/a2f2qHkaaIESGAYUWQEu8/40afa8944267830b348dc233bf4be46c/bake-5.jpg"
+  :_meta:
+    :updated_at: '2018-12-28T18:44:07+00:00'
+    :created_at: '2018-12-28T18:44:07+00:00'
+    :id: a2f2qHkaaIESGAYUWQEu8
+- :title: bake-6
+  :description: Knife’s Edge, where the AT runs along narrow ridge of boulders.
+  :url: "//images.ctfassets.net/sib29204iua7/hXQpZMEHAsuAYei8aOEW8/03ecdd74c11f75a3b931ea01ca714803/bake-6.jpg"
+  :_meta:
+    :updated_at: '2018-12-28T18:44:19+00:00'
+    :created_at: '2018-12-28T18:44:19+00:00'
+    :id: hXQpZMEHAsuAYei8aOEW8
+- :title: bake-2
+  :description: A flatter portion of the Appalachian Trail, post-Knob.
+  :url: "//images.ctfassets.net/sib29204iua7/2CzzK5bf8gGug8Qm048uMW/5680fdfabe8e55934de8e746d8710a53/bake-2.jpg"
+  :_meta:
+    :updated_at: '2018-12-28T18:43:28+00:00'
+    :created_at: '2018-12-28T18:43:28+00:00'
+    :id: 2CzzK5bf8gGug8Qm048uMW
+- :title: bake-4
+  :description: The Bake Oven Shelter.
+  :url: "//images.ctfassets.net/sib29204iua7/1RWgfH5cNWu04CcUy4sUeq/046043c3ff5ed568ed7708802f94cc2d/bake-4.jpg"
+  :_meta:
+    :updated_at: '2018-12-31T18:00:20+00:00'
+    :created_at: '2018-12-28T18:43:52+00:00'
+    :id: 1RWgfH5cNWu04CcUy4sUeq
+- :title: bake-7
+  :description: Some of the best views around!
+  :url: "//images.ctfassets.net/sib29204iua7/1uNdHMrSAYA6c08OiigEao/658ebe74f58c34ed316a35d8a97c5ce2/bake-7.jpg"
+  :_meta:
+    :updated_at: '2018-12-28T18:44:32+00:00'
+    :created_at: '2018-12-28T18:44:32+00:00'
+    :id: 1uNdHMrSAYA6c08OiigEao
+- :title: bake-8
+  :description: Please don’t.
+  :url: "//images.ctfassets.net/sib29204iua7/20z9JnKoJauIqKwwsGE6Oa/fda4529bf66e15f6d02c9ad763b09d3b/bake-8.jpg"
+  :_meta:
+    :updated_at: '2018-12-28T18:44:43+00:00'
+    :created_at: '2018-12-28T18:44:43+00:00'
+    :id: 20z9JnKoJauIqKwwsGE6Oa
+- :title: bake-11
+  :description: Signage for the nearby campsite.
+  :url: "//images.ctfassets.net/sib29204iua7/2Sgd9BYPHOKUwiIkAmWouU/78ec58b9d01836a8ddc090f9ff970f6c/bake-11.jpg"
+  :_meta:
+    :updated_at: '2018-12-31T18:24:42+00:00'
+    :created_at: '2018-12-31T18:11:42+00:00'
+    :id: 2Sgd9BYPHOKUwiIkAmWouU
+- :title: bake-12
+  :description: A power line trail near the New Tripoli campsite.
+  :url: "//images.ctfassets.net/sib29204iua7/51A4y3cqAEIQoeMCaSuwGs/7492132f10b02259e999f5db21afdad1/bake-12.jpg"
+  :_meta:
+    :updated_at: '2018-12-31T18:12:03+00:00'
+    :created_at: '2018-12-31T18:12:03+00:00'
+    :id: 51A4y3cqAEIQoeMCaSuwGs
+:has_difficult_trails: true
+:more_natural: true
