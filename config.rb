@@ -13,8 +13,8 @@ set :markdown, :layout_engine => :erb, :tables => true, :autolink => true, :smar
 helpers do
 
   def get_destinations
-    mydestinations = { }
-    data.phillydayhiker.destinations
+    destinations = { }
+    data.stitch.destinations
       .sort_by { |id, destination| destination.name }
       .each do |id, destination|
     end
