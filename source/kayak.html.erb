@@ -1,21 +1,21 @@
 ---
-layout: kayak
+layout: homepage
 ---
-
-<% 
-  content_for :page_title, "Public Boat Launch Map - Philly Day Hiker"
-  content_for :page_description, "Looking for a place to launch a kayak near Philly? Here's an insider's guide to the best boat launches within 90 minutes of Philadelphia."
+<%
 %>
 
-<%= partial 'kayak_header' %>
+<%= partial 'header' %>
 
-<div id='map' class="full-height kayak-map"></div>
+<div id='map' class="full-height"></div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
   <!-- mapbox gl js map -->
   <script>
     mapboxgl.accessToken = 'pk.eyJ1IjoibGF1cmVuaGFsbGRlbiIsImEiOiJjaWtvMXQzMnIwdXFwdHpqN21hMG84MGMxIn0.bMeEalyqwCOvDs_a8AeETw';
     var map = new mapboxgl.Map({
         container: 'map', // container id
-        style: 'mapbox://styles/laurenhallden/cjj75lusm22ys2ss85jxbh0tw', //stylesheet location
+        style: 'mapbox://styles/laurenhallden/civxwk4jt006g2klkep3qszns', //stylesheet location
         center: [-75.163, 39.976], // starting position
         zoom: 9 // starting zoom
     });
@@ -76,7 +76,7 @@ layout: kayak
 
     // Popups: change popup cursors to pointer
     map.on('mousemove', function (f) {
-      var pointers = map.queryRenderedFeatures(f.point, { layers: ['kayak-launches','places'] });
+      var pointers = map.queryRenderedFeatures(f.point, { layers: ['zoomed-features','places'] });
       map.getCanvas().style.cursor = (pointers.length) ? 'pointer' : '';
     });
   });
@@ -84,7 +84,7 @@ layout: kayak
   // When a click event occurs near a BLUE location marker, open a popup at the location of
   // the feature, with description HTML from its properties.
   map.on('click', function (e) {
-    var features = map.queryRenderedFeatures(e.point, { layers: ['kayak-launches'] });
+    var features = map.queryRenderedFeatures(e.point, { layers: ['places'] });
 
     if (!features.length) {
       return;
@@ -99,7 +99,33 @@ layout: kayak
     // based on the feature found.
     var popup = new mapboxgl.Popup()
       .setLngLat(feature.geometry.coordinates)
-      .setHTML("<div class='title'>" + feature.properties.title + "</div><div class='link-wrapper'><a class='a-blue outlink slideout learn-more' href='" + feature.properties.learnmore + "' target='_blank'>Learn more</a><i class='icon'></i></div><div class='link-wrapper'><a class='a-blue outlink slideout get-directions' href='http://maps.apple.com/?q=" + feature.geometry.coordinates.reverse() + "' target='_blank'>Directions</a><i class='icon'></i></div>")
+      .setHTML("<a href='" + feature.properties.link +"'>" + feature.properties.title + "</a>")
+      .addTo(map);
+  });
+
+  // When a click event occurs near a YELLOW feature marker, open a popup at the location of
+  // the feature, with description HTML from its properties.
+  map.on('click', function (f) {
+    var highlights = map.queryRenderedFeatures(f.point, { layers: ['zoomed-features'] });
+
+    if (!highlights.length) {
+      return;
+    } else {
+      // Get coordinates from the symbol and center the map on those coordinates
+      var oldcoords = highlights[0].geometry.coordinates;
+      var oldlat = oldcoords[0];
+      var oldlong = oldcoords[1];
+      var newlong = (oldlong + 0.00450);
+      map.flyTo({center:[oldlat, newlong]});
+    }
+
+    var highlight = highlights[0];
+
+    // Populate the popup and set its coordinates
+    // based on the feature found.
+    var popup = new mapboxgl.Popup()
+      .setLngLat(highlight.geometry.coordinates)
+      .setHTML(highlight.properties.title + '<br/>' + highlight.properties.description)
       .addTo(map);
   });
 
