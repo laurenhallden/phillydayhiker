@@ -1,0 +1,5 @@
+[[redirects]]
+from = "https://copies.phillydayhiker.com/*"
+to = "https://phillydayhiker.com/copies/:splat"
+status = 301
+force = true
