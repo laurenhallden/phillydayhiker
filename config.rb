@@ -67,4 +67,18 @@ configure :build do
   activate :minify_css
   activate :minify_javascript
   activate :relative_assets
+
+  after_build do |builder|
+    # Netlify requires a _redirects file for its redirects, but Middleman ignores files which
+    # start with an underscore! So we have to hack it a little.
+
+    # This code moves the _redirects file from the top level project folder into the build folder.
+    # Middleman cleans (deletes) the entire build folder by default each build so this is required
+    # to keep the redirects around and make sure they get into the folder for netlify to use.
+    src = '_redirects'
+    dst = File.join(config[:build_dir],"_redirects")
+    builder.source_paths << File.dirname(__FILE__)
+    builder.copy_file(src,dst)
+
+  end
 end
