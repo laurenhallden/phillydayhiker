@@ -48,6 +48,8 @@ end
 # Page options, layouts, aliases and proxies
 ###
 
+page "/sitemap.xml", :layout => false
+
 if data.respond_to?('phillydayhiker')
   # Build individual integration pages
   data.phillydayhiker.destinations.each do |id, destination|
@@ -67,6 +69,14 @@ configure :build do
   activate :minify_css
   activate :minify_javascript
   activate :relative_assets
+
+  activate :robots,
+  :rules => [
+    {
+      :user_agent => '*'
+    }
+  ],
+  :sitemap => "https://phillydayhiker.com/sitemap.xml"
 
   after_build do |builder|
     # Netlify requires a _redirects file for its redirects, but Middleman ignores files which
