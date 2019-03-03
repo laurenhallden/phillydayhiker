@@ -6,7 +6,7 @@ force = true
 
 [[redirects]]
 from = "/copies/*"
-to = "https://copies.netlify.com/copies/:splat"
+to = "https://copies.netlify.com/:splat"
 status = 200
 force = true
 headers = {X-Forwarded-Host = "www.phillydayhiker.com"}
