@@ -9,15 +9,17 @@ layout: destination
   end
 
   if destination.acres && destination.miles_of_trails
-  content_for :page_description, "#{destination.name} has #{destination.acres} acres and roughly #{destination.miles_trails} miles of trails. Here's all the tips and information you need about hiking #{destination.name}"
+    content_for :page_description, "#{destination.name} has #{destination.acres} acres and roughly #{destination.miles_trails} miles of trails. Here's all the tips and information you need about hiking #{destination.name}."
   else
     if destination.acres
-      content_for :page_description, "#{destination.name} has roughly #{destination.miles_trails} miles of trails. Here's all the tips and information you need about hiking #{destination.name}"
+      content_for :page_description, "#{destination.name} has roughly #{destination.miles_trails} miles of trails. Here's all the tips and information you need about hiking #{destination.name}."
   else
     if destination.miles_trails
-      content_for :page_description, "#{destination.name} is roughly #{destination.acres} acres. Here's all the tips and information you need about hiking #{destination.name}"
+      content_for :page_description, "#{destination.name} is roughly #{destination.acres} acres. Here's all the tips and information you need about hiking #{destination.name}."
   else
-    content_for :page_description, "#{destination.name} is within a 90-minute drive of Philadelphia. Here's all the tips and information you need about hiking #{destination.name}"
+    content_for :page_description, "Here's all the tips and information you need about hiking #{destination.name}, plus lots of other options within a 90-minute drive of the city."
+    end
+    end
   end
 %>
 
