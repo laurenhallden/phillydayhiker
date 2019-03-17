@@ -9,10 +9,17 @@ layout: destination
   end
 
   amenities = ""
+  amenities2 = ""
   trailsdescription = ""
+  dogfriendly = ""
 
   if destination.more_amenities == true
-    amenities = ", plus lots of other amenities"
+    amenities = ", plus lots of other outdoor amenities"
+    amenities2 = " and offers lots of outdoor amenities"
+  end
+
+  if destination.dogs == true
+    dogfriendly = " And it's dog-friendly!"
   end
 
   if (destination.has_easy_trails == true) && (destination.has_difficult_trails == true)
@@ -28,15 +35,15 @@ layout: destination
   end
 
   if (destination.acres && destination.miles_of_trails)
-    content_for :page_description, "#{destination.name} has #{destination.acres} acres and #{destination.miles_trails} miles of trails#{amenities}.#{trailsdescription} Here's all the tips and information you need about hiking #{destination.name}."
+    content_for :page_description, "#{destination.name} has #{destination.acres} acres and #{destination.miles_trails} miles of trails#{amenities}.#{trailsdescription}#{dogfriendly} Grab a trail map and get all the tips you need about hiking #{destination.name}."
   else
     if destination.miles_trails
-      content_for :page_description, "#{destination.name} has #{destination.miles_trails} miles of trails#{amenities}.#{trailsdescription} Here's all the tips and information you need about hiking #{destination.name}."
+      content_for :page_description, "#{destination.name} has #{destination.miles_trails} miles of trails#{amenities}.#{trailsdescription}#{dogfriendly} Grab a trail map and get all the tips you need about hiking #{destination.name}."
   else
     if destination.acres
-      content_for :page_description, "#{destination.name} is roughly #{destination.acres} acres#{amenities}.#{trailsdescription} Here's all the tips and information you need about hiking #{destination.name}."
+      content_for :page_description, "#{destination.name} is roughly #{destination.acres} acres#{amenities2}.#{trailsdescription}#{dogfriendly} Grab a trail map and get all the tips you need about hiking #{destination.name}."
   else
-    content_for :page_description, "#{destination.name} is a place to hike near Philadelphia.#{trailsdescription} Here's all the tips and information you need about hiking #{destination.name}, plus lots of other options within a 90-minute drive of the city."
+    content_for :page_description, "If you're looking for a place to hike, #{destination.name} is close to Philadelphia.#{trailsdescription}#{dogfriendly} Grab a trail map and get all the tips you need about hiking #{destination.name}, plus lots of other options within a 90-minute drive of the city."
     end
     end
   end
