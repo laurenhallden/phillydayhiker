@@ -115,7 +115,7 @@ layout: destination
       <% 
         destination.gallery
         .each do |id|
-      %><div class="image-container"><img class="gallery-image" src="<%= id.url %>?fm=jpg&fl=progressive&w=600&h=600" /><% if id.description %><div class="caption"><%= id.description %></div><div class="caption-indicator"></div><% end %></div><% end %></div>
+      %><div class="image-container"><img class="gallery-image" src="<%= id.url %>?fm=jpg&fl=progressive&fit=thumb&&w=600&h=600" /><% if id.description %><div class="caption"><%= id.description %></div><div class="caption-indicator"></div><% end %></div><% end %></div>
     <% end %>
   </div>
 
@@ -231,10 +231,18 @@ layout: destination
 
     // Populate the popup and set its coordinates
     // based on the feature found.
-    var popup = new mapboxgl.Popup()
+
+    if (!('description' in highlight.properties)) {
+      var popup = new mapboxgl.Popup()
       .setLngLat(highlight.geometry.coordinates)
-      .setHTML(highlight.properties.title + '<br/>' + highlight.properties.description)
+      .setHTML(highlight.properties.title)
       .addTo(map);
+    } else {
+      var popup = new mapboxgl.Popup()
+        .setLngLat(highlight.geometry.coordinates)
+        .setHTML(highlight.properties.title + '<br/>' + highlight.properties.description)
+        .addTo(map);
+    }
   });
 
   // Disable map zoom when using scroll

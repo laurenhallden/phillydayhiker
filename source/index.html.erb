@@ -123,10 +123,18 @@ layout: homepage
 
     // Populate the popup and set its coordinates
     // based on the feature found.
-    var popup = new mapboxgl.Popup()
+
+    if (!('description' in highlight.properties)) {
+      var popup = new mapboxgl.Popup()
       .setLngLat(highlight.geometry.coordinates)
-      .setHTML(highlight.properties.title + '<br/>' + highlight.properties.description)
+      .setHTML(highlight.properties.title)
       .addTo(map);
+    } else {
+      var popup = new mapboxgl.Popup()
+        .setLngLat(highlight.geometry.coordinates)
+        .setHTML(highlight.properties.title + '<br/>' + highlight.properties.description)
+        .addTo(map);
+    }
   });
 
   // Add zoom and rotation controls to the map.
