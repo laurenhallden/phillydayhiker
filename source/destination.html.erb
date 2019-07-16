@@ -105,7 +105,7 @@ layout: destination
             </div>
           </div>
           <div class="slug">
-            <p class="small">Last updated: December 30, 2018</p>
+            <p class="small">Last updated: <%= Date.parse(destination._meta.updated_at).strftime("%B %e, %Y") %> </p>
           </div>
         </div>
       </div>
