@@ -38,7 +38,11 @@
 .cognito {
 	font-size: 1rem !important;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	min-height: 400px;
+	min-height: 650px;
+
+	iframe {
+		min-height: 650px;
+	}
 
 	.c-forms-form-main {
 		margin-top: 0 !important;
