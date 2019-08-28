@@ -406,6 +406,12 @@ input:focus {
     padding: 1rem 0;
   }
 
+  .contact-list {
+    li a {
+      cursor: pointer;
+    }
+  }
+
   .tip-jar {
     margin-top: 1.5rem;
 
