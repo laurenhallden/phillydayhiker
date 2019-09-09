@@ -82,6 +82,15 @@ layout: destination
             <i class="icon"></i>
           </a>
         </div>
+        <% if destination.go_philly_go_url %>
+          <div class="outlink-wrapper">
+            <a class="a-blue outlink slideout get-map" href="<%= destination.go_philly_go_url %>" target="_blank">
+              <div class="link-icon"><img src="/images/transit-icon.svg"/></div>
+              Get there car-free!
+              <i class="icon"></i>
+            </a>
+          </div>
+        <% end %>
       </div>
     </div>
     <div class="body-container">   

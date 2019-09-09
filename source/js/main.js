@@ -161,6 +161,9 @@ $('.filter-input').click(function() {
 			else if (id === 'boats') {
 				filterArr.push("boats");
 			}
+			else if (id === 'transit') {
+				filterArr.push("transit");
+			}
 		};
 	});
 
@@ -195,6 +198,9 @@ $('.filter-input').click(function() {
 		}
 		if (myDestinations[i].boats === "true") {
 			destinationProps.boats = true;
+		}
+		if (myDestinations[i].transit) {
+			destinationProps.transit = true;
 		}
 
 		// Grab the url of the current Destination, for later
