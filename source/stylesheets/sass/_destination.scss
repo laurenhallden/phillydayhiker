@@ -35,15 +35,15 @@
 		width: 300px;
 		display: inline-block;
 		vertical-align: top;
-		text-align: center;
 
-		@media #{$break-mobile-large} {
-			width: 100%;
+		@media #{$break-ipad-large} {
+			width: 290px;
 			display: block;
-
-			&:last-of-type {
-				margin-top: 0.5rem;
-			}
+			text-align: left;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 5px;
+			height: 60px;
 		}
 	}
 

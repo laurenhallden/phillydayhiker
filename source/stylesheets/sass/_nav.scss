@@ -253,7 +253,7 @@ input:focus {
   display: flex;
   flex-wrap: wrap;
   background: $whisper-gray;
-  padding: 10px 30px;
+  padding: 10px 20px;
   margin-bottom: 25px;
 
   .filter-icon,
@@ -273,12 +273,12 @@ input:focus {
 
   .filter-column {
     padding: 0 15px;
-    font-size: $font-small;
+    font-size: 14px;
     flex-grow: 1;
 
     &:first-of-type {
 
-      @media #{$break-ipad-landscape} {
+      @media #{$break-laptop} {
         width: 100%;
         margin-bottom: 10px;
       }
