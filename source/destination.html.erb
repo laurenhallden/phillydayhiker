@@ -108,20 +108,19 @@ layout: destination
                 <a class="inat-logo" href="https://www.inaturalist.org"><img alt="iNaturalist" src="https://static.inaturalist.org/sites/1-logo.svg" target="_blank"></a> )
             </h4>
             <div class="inat-widget">
-              <script type="text/javascript" charset="utf-8" src="https://www.inaturalist.org/observations.widget?layout=small&limit=10&order=desc&order_by=observed_on&place_id=93511"></script>
+              <script type="text/javascript" charset="utf-8" src="https://www.inaturalist.org/observations.widget?layout=small&limit=10&order=desc&order_by=observed_on&place_id=<%= destination.inat_place_id %>"></script>
 
               <% if destination.inat_place_slug %>
                 <table class="inat-footer">
                   <tr class="inat-user">
                     <td class="inat-value" colspan="2">
                       <strong>
-                          <a class="slideout" href="https://www.inaturalist.org/places/ridley-creek-state-park" title="View more observations on iNaturalist">View more observations <i class="icon"></i></a>
+                          <a class="slideout" href="https://www.inaturalist.org/places/<%= destination.inat_place_slug %>" title="View more observations on iNaturalist" target="_blank">View more observations <i class="icon"></i></a>
                       </strong>
                     </td>
                   </tr>
                 </table>
               <% end %>
-              
             </div>
           <% end %>
 
