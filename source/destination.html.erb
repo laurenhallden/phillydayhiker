@@ -102,15 +102,40 @@ layout: destination
             <h4>Coming soon!</h4>
             <p>Check back soon for a full review of this destination.</p>
           <% end %>
-          <div class="more-links">
-            <div class="feedback a-blue inline" data-toggle="modal" data-target="#tipsModal">Send Feedback</div>
-            <% if destination.website %>
-            <span class="line">|</span><a class="a-blue inline learn-link slideout get-website" href="<%= destination.website %>" target="_blank">Learn more <i class="icon"></i></a>
-            <% end %>
-          </div>
-          <div class="donate-cta">
-            <div class="cta" data-toggle="modal" data-target="#donateModal">
-              <p class="small"><i class="fa fa-heart"></i>Like this? Tip us a buck or two!</p>
+
+          <% if destination.inat_place_id %>
+            <h4>Spotted here recently (via
+                <a class="inat-logo" href="https://www.inaturalist.org"><img alt="iNaturalist" src="https://static.inaturalist.org/sites/1-logo.svg" target="_blank"></a> )
+            </h4>
+            <div class="inat-widget">
+              <script type="text/javascript" charset="utf-8" src="https://www.inaturalist.org/observations.widget?layout=small&limit=10&order=desc&order_by=observed_on&place_id=93511"></script>
+
+              <% if destination.inat_place_slug %>
+                <table class="inat-footer">
+                  <tr class="inat-user">
+                    <td class="inat-value" colspan="2">
+                      <strong>
+                          <a class="slideout" href="https://www.inaturalist.org/places/ridley-creek-state-park" title="View more observations on iNaturalist">View more observations <i class="icon"></i></a>
+                      </strong>
+                    </td>
+                  </tr>
+                </table>
+              <% end %>
+              
+            </div>
+          <% end %>
+
+          <div class="more-content">
+            <div class="more-links">
+              <div class="feedback a-blue inline" data-toggle="modal" data-target="#tipsModal">Send Feedback</div>
+              <% if destination.website %>
+              <span class="line">|</span><a class="a-blue inline learn-link slideout get-website" href="<%= destination.website %>" target="_blank">Learn more <i class="icon"></i></a>
+              <% end %>
+            </div>
+            <div class="donate-cta">
+              <div class="cta" data-toggle="modal" data-target="#donateModal">
+                <p class="small"><i class="fa fa-heart"></i>Like this? Tip us a buck or two!</p>
+              </div>
             </div>
           </div>
           <div class="slug">
